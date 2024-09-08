@@ -13,4 +13,3 @@
 # [Link to Page 2](page2.md)     
 
 
-![alt text](https://github.com/ryansajid/Portfolio/blob/main/Capture.PNG)
