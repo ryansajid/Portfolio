@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <link rel="stylesheet" href="styles.css">
   <div class="links">
     <a href="https://www.example.com">Link 1</a>
     <a href="https://www.example.com">Link 2</a>
