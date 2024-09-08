@@ -13,4 +13,4 @@
 # [Link to Page 2](page2.md)     
 
 
-![Images](assets/Capture.jpeg)
+![Go for the kill](assets/Capture.jpeg)
