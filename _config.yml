@@ -1,6 +1,7 @@
 title: Md Nazmus Sajid
 logo: /assets/Git.png
 description: Power BI Data Analyst Associate
-linkedin: https://www.linkedin.com/in/mdsajid12/
+profile:
+  linkedin: https://www.linkedin.com/in/mdsajid12/
 show_downloads: true
 theme: jekyll-theme-minimal
