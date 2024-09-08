@@ -12,7 +12,7 @@
 - <b>Bachelor of Computer Science</b>    |    International Islamic University Malaysia(_September 2015 - March 2020_).
 
 ## Experience
-<b>(Data Analyst | Fleexiroam)</b>
+<b>Data Analyst | Flexiroam (_June 2019 - June 2020_)</b>
 - Engineered and implemented over 50 complex Database schemas using MySQL Workbench, enhancing visual representation and comprehension of all databases, resulting in a 25% improvement in database management efficiency.
 - Developed a robust data and reporting infrastructure utilizing Power BI and SQL, delivering weekly real-time insights on product performance, marketing funnel metrics, and critical business KPIs, which led to an increase in data-driven decision-making.
 - Ingest data from various sources(CRM, BI systems, etc.) into Azure Data Lake Storage for comprehensive monthly reporting on client enrollments, service adoption rates, and employee-client assignments, resulting in an improvement in resource allocation and an increase in client satisfaction scores.
