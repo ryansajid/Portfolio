@@ -12,4 +12,4 @@
 
 # [Link to Page 2](page2.md)     
 
-![direct](https://github.com/ryansajid/Portfolio/blob/main/Capture%201.PNG)
+
