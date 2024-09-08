@@ -1,4 +1,4 @@
-<p align="left">Microsoft Certified: Power BI Data Analyst Associate.</p>
+<p align="right">Microsoft Certified: Power BI Data Analyst Associate.</p>
 ## Business Analyst with 2 years of Experience
 **Technical Skills: Python, R, SQL, Power BI, MySQL, Azure Cloud Computing**
 
