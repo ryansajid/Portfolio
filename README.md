@@ -12,4 +12,4 @@
 
 # [Link to Page 2](page2.md)     
 
-![Gone](https://github.com/ryansajid/Portfolio/blob/main/Capture%201.PNG)
+![Show me the meaning](https://github.com/ryansajid/Portfolio/blob/main/Capture%201.PNG)
