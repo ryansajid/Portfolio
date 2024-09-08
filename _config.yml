@@ -1,10 +1,5 @@
 title: Md Nazmus Sajid
 logo: /assets/Git.png
 description: Power BI Data Analyst Associate
-skills:
-  - data analysis
-  - data visualization
-  - Power BI
-  - SQL
 show_downloads: true
 theme: jekyll-theme-minimal
