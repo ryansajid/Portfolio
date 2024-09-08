@@ -1,7 +1,7 @@
 ## Business Analyst with 2 years of Experience
 <h4>Technical Skills: Python, R, SQL Power BI, MySQL, Azure Cloud Computing </h4>
 
-###                                             Skills Highlights Include
+### Skills Highlights Include
 - Skilled at using data-driven approaches to solve problems and make informed decisions.
 - Quick at learning new skills with the ability to envision solutions, take initiative while working in a team or self-directed setting.
 - A proactive self-starter who is driven to identify opportunities for process optimization and data based insights.
