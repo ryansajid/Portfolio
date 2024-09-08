@@ -9,7 +9,7 @@
 - Interpersonal communicator with matchless communication skills and the ability to write reports concisely, and speak effectively.
 
 
+<a href="page2.md" style="margin-right: 10px;">Link to Page 2</a>  <a href="page3.md">Link to Page 3</a>
 
 
-
-# [Link to Page 2](page2.html)  [Link to Page 2](page3.md)
+# [Link to Page 2](page2.md)      [Link to Page 2](page3.md)
