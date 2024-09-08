@@ -11,4 +11,4 @@
 
 
 
-# [Link to Page 2](page2.html)                    [Link to Page 2](page2.html)
+# [Link to Page 2](page2.html)  [Link to Page 2](page2.html)
