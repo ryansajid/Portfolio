@@ -8,19 +8,7 @@
 - A proactive self-starter who is driven to identify opportunities for process optimization and data based insights.
 - Interpersonal communicator with matchless communication skills and the ability to write reports concisely, and speak effectively.
 
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <link rel="stylesheet" href="styles.css">
-  <div class="links">
-    <a href="https://www.example.com">Link 1</a>
-    <a href="https://www.example.com">Link 2</a>
-  </div>
-</body>
-</html>
+
 
 
 # [Link to Page 2](page2.html)                    [Link to Page 2](page2.html)
