@@ -13,12 +13,12 @@
 
 ## Experience
 <b>Data Analyst | Flexiroam (_June 2019 - June 2020_)</b>
-- Engineered and implemented over 50 complex Database schemas using MySQL Workbench, enhancing visual representation and comprehension of all databases, resulting in a 25% improvement in database management efficiency.
+- Engineered and implemented over 50 complex Database schemas using MySQL Workbench, enhancing visual representation and comprehension of all databases, resulting in a <b>25%</b> improvement in database management efficiency.
 - Developed a robust data and reporting infrastructure utilizing Power BI and SQL, delivering weekly real-time insights on product performance, marketing funnel metrics, and critical business KPIs, which led to an increase in data-driven decision-making.
 - Ingest data from various sources(CRM, BI systems, etc.) into Azure Data Lake Storage for comprehensive monthly reporting on client enrollments, service adoption rates, and employee-client assignments, resulting in an improvement in resource allocation and an increase in client satisfaction scores.
-- Fostered cross-functional collaboration with marketing and product teams to design and implement a centralized reporting infrastructure in Power BI, streamlining data accessibility and reducing report generation time by 40%.
-- Conducted in-depth root cause analyses focused on customer conversion challenges, producing actionable reports that drove strategic improvements and resulted in a significant 32% increase in conversion rates.
--  Leveraged advanced data analytics techniques to dissect sales data, generating targeted marketing strategy recommendations that directly contributed to a 10% boost in overall sales revenue within three months.
+- Fostered cross-functional collaboration with marketing and product teams to design and implement a centralized reporting infrastructure in Power BI, streamlining data accessibility and reducing report generation time by <b>40%</b>.
+- Conducted in-depth root cause analyses focused on customer conversion challenges, producing actionable reports that drove strategic improvements and resulted in a significant <b>32%</b> increase in conversion rates.
+-  Leveraged advanced data analytics techniques to dissect sales data, generating targeted marketing strategy recommendations that directly contributed to a <b>10%</b> boost in overall sales revenue within three months.
 
 
 
