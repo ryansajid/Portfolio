@@ -12,4 +12,4 @@
 
 # [Link to Page 2](page2.md)     
 
-![alt text](Capture 1.PNG)
+! [alt text](Capture 1.PNG)
