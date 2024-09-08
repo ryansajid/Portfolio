@@ -7,7 +7,7 @@
 - A proactive self-starter who is driven to identify opportunities for process optimization and data based insights.
 - Interpersonal communicator with matchless communication skills and the ability to write reports concisely, and speak effectively.
 
-
+<p align="center">This text is centered.</p>
 
 
 # [Link to Page 2](page2.md)     
