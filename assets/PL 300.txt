@@ -1,0 +1,521 @@
+ Star schema - single fact to mulitiple dimension tables.
+Snowflake - dimension to dimension
+fact constellation - multiple fact to shared dimension tables.
+Completely normalized - no fact table.
+
+Dataflow - Created and managed in workspace.
+
+1.Admin:Full control over the workspace. Admins can add or remove members, change permissions, 
+and manage all content within the workspace. Only Admin and Member can publish, unpublish, and change permissions for an app.
+2.Member:Significant control but not full administrative rights. Members can add and edit content, create new reports and 
+dashboards, and share content within the workspace.Admin,Member and Contributor can create, edit, and delete content, such as reports, in the workspace.
+3.Contributor:Limited to creating and modifying their own content but cannot manage the workspace or change permissions for other users.
+4.Viewer:Read-only access. Viewers can view and interact with reports and dashboards but cannot create, edit, or delete any content.
+
+Summarizing data that has high cardinality can help improve cardinality and reduce data model.
+
+Live Connection:A live connection in Power BI allows you to connect directly to a data source, such as SQL Server Analysis Services
+(SSAS) or Power BI datasets, and query it in real-time without importing the data into Power BI Desktop.
+Direct Query: Data stays in the source system and is queried in real time when visuals are rendered.
+
+Power BI supports 100 built in native data connectors.
+
+Scheduled data refreshes can be configured from report settings. 
+
+In the dataset settings page we can see usage matrices for a dataset.
+
+Power BI administrators can enable sensitivity labels.
+
+Sensitivity labels help classify data according to its sensitivity level, such as "Confidential," "Highly Confidential,"
+"Public," etc. These labels can apply protection settings, such as encryption and access restrictions, to ensure that only
+authorized users can access the data.
+
+Impact analysis shows which dashboards and reports are using shared dataset.
+
+A workspace can contain only one app.
+
+To restrict someone from exporting data from visuals we need to modify the report settings and dataset permissions from Power BI service.
+
+Power BI Pro allows to create new workspace.
+
+If a user's password stored in the gateway credential changes, the credential status will show expired. The gateway won't 
+have valid password to connect to the data source.
+
+The order in the Selection Pane represents the stacking order on the report canvas. Items at the top of the list are at the 
+front, while items at the bottom are in the back.
+
+If we have permission to dataset but dont have permission to workspace then from PBI  desktop we need to connect to shared dataset
+and create a new report in pbi service and select the published dataset.  
+
+Sync Sliciers allow to synchronize slicier and filter selections across multiple report pages.
+Selection pane allows to group visuals.
+
+Thin report is a report without a dataset.
+
+Deleting the existing dashboard tile and re-pin the visual from the report ensure the report is reflected in the dashboard.
+
+To configure reference lines for visualizations and create forecast we use Analytics pane.
+
+To add reference line showing the median salary we need to create a percentile line using salary measure
+and set the percentile value to 50%. 
+
+CALENDER() over CALENDERAUTO() to manually specify the start and end dates for the returned range.
+
+CALCULATE() can be used for boolean expression, table filter or filter modification functions.
+
+ISINSCOPE() can help ensure that only specific categories are ranked.
+
+Data category property will limit the types of summarizations possible to perform.
+
+If filter is set in wrong section of the report simply delete the filter and start again. 
+
+If a slicer update more visual than intended than we have to use edit interactions.
+
+PBI report builder is used for paginated report.  
+
+Waterfall style is not a conditionl format style.  shows a running total as values are added or subtracted.
+It's useful for understanding how an initial value (for example, net income) is affected by a series of positive and negative values.
+
+The maximum dataset set size supported when using the regular import mode is 10GB.
+
+The maximum number of scheduled refresh allowed per day for a PBI pro licensed workspace is 8.
+
+Data profiling examines the actual data validate that a query's output reflects the source data.
+
+Italicized query names indicate that loading of those queries has been disabled.
+
+For shared capacity the file size is 1GB.
+
+R script plots the map for 150,000 rows.
+
+In import mode if we directly get the table from SQL server then we will get the view native query option in query settings.
+On the other hand if we get the table with any SQL command we won't get the option. And in import mode the shifting to power 
+query is possible but for DirectQuery mode it's not possible. In DQ mode everything is handled by SQL. 
+
+Query folding sends the data transformation and filter commands to the data source, where it is executed.
+
+Incremental refresh dynamically partitions and separates data that needs to be refreshed frequently from data that can be refreshed less frequently.
+For incremental refresh we need pro license. Needs parameters i.e. RangeStart and RangeEnd and set custom filters with these parameters. We 
+also need to apply refresh policies.
+
+Power Query Parameters are best to test reports across different enviroments.
+
+The syntax for both DATEADD and PARALLELPERIOD functions are the same.The only difference is DATEADD honors the filter context whereas,
+PARALLELPERIOD does not. the given formula for DATEADD shifts the dates exactly one year backward, irrespective of whether the calculation
+happens at the year level or the month level (it honors both the month & the year filter from the filter context).
+
+CALCULATE ( [Revenue], SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+                                                             (Same Results)
+CALCULATE ( [Revenue], DATEADD ( 'Date'[Date], -1, YEAR ) )
+
+
+CALCULATE ( [Revenue], PARALLELPERIOD ( 'Date'[Date], -1, YEAR ) )
+                                                                      (Same Results)        
+CALCULATE ( [Revenue], PREVIOUSYEAR ( 'Date'[Date] ) )
+
+Using data bars, we can replace column values with color-coded bars that communicate both the magnitude
+(length of the bar) and the direction of the change (positive/negative). Ensure to check Show bar only to prevent values from appearing.
+Background Color: Highlights cells with colors based on their values, useful for indicating performance, trends, or outliers.
+Data Bars: Adds bar charts within cells to show the magnitude of values, useful for quick visual comparisons within a column.
+
+The Power BI alerts track only a single variable. It then alerts you if the value of that variable is above/below a threshold.
+Power Automate doesn’t provide any additional alerting functionality. It just integrates Power BI alerts with other services.
+A subscription emails you a snapshot osmartf the Power BI report/dashboard according to the defined schedules.
+It does not check the individual data points (if Stock price > 200 DMA).
+
+A line chart, scatter charts, and maps will be cross-filtered, and a column chart will be cross-highlighted.(Abar dekhte hobe info not correct)
+
+M code to replace null with 0 ,= Table.ReplaceValue(Orders,null,0,Replacer.ReplaceValue,{"Order Value"})
+
+Stacked area chart is line chart with the bottom part shaded.
+
+clustered columns are side way columns
+
+You can create a portrait version of your reports for mobile devices on both Power BI Desktop and service
+
+In the Power BI dashboard we can create tiles of web content, video, image and text box.
+
+Whenever you have a Record structured column in a table, you can expand it to display additional 
+columns. You can choose which columns to select.
+
+Whenever you have a List structured column in a table, you can expand it to display additional rows.
+
+We do not add a mobile layout and save it seperately for the dashboard.We create a mobile layout for a dashboard by editing 
+the dashboard and changing the layout from web to mobile.
+
+Pivoting - https://docs.microsoft.com/en-us/power-query/pivot-columns
+Unpivoting - https://docs.microsoft.com/en-us/power-query/unpivot-column
+Transpose - https://docs.microsoft.com/en-us/power-query/transpose-table
+
+
+You can create alerts on tiles in a dashboard in any workspace (to which you have access) if one of the following is TRUE:
+1. The dashboard is in a premium capacity
+2. You have a Power BI Pro license, or,
+3. You have a Premium Per User (PPU) license.
+
+Alerts can be set on three types of tiles (gauges, KPIs, and cards) on a Power BI dashboard.
+Alerts can be set on visuals created from streaming datasets that are pinned from a report to a dashboard. 
+Alerts can't be set on streaming tiles created directly on the dashboard using Add tile > Custom streaming data.
+
+There are three ways to create a real-time streaming data feed that Power BI can consume and visualize:
+1. Power BI REST API using a real-time streaming endpoint
+2. Azure Stream
+3. PubNub
+
+Since for push datasets, the Power BI service automatically creates a database, you can create alerts on tiles created using 
+them directly from the Power BI dashboard
+
+Removing column from the model optimizes the model size.
+
+Common Data Model defines the standardized schema for an entity across an industry.
+ 
+Dataflows is an ETL tool that enables you to build standardized tables for your organization.
+
+A shared dataset is a dataset shared between multiple reports. You can create a new report from an existing dataset through
+the Power BI website. This will create a report without a dataset. In fact, the dataset of that report will be the dataset
+that you are creating the report from. This type of report is also called a Thin report. 
+
+Cardinality means 1 to many, many to many etc. Granularity is being on the same interval line months, years, days for date.
+
+Increasing transparency settings adjust the boundary for what is considered an expected vs anomalies.
+
+Syn slicers work on all the pages of the report to make it work in certain pages we need to modify the slicer's interactions to control which 
+page visuals are affected.
+
+Dataverse provides connectivity to data sources created with Power Apps and Dynamics 365.
+
+The minimum interval that can be configured for incremental refresh is 15 minutes.
+
+Calculated columns compute values row by row while calculated tables compute for entire tables.
+
+To enable scheduled refresh of an on-premises data source like excel file on a server, we need to deploy on-premises data gateway first.
+This creates a secure connection for the data refresh.   
+Two operating modes in on-premises data gateway are Standard and Personal.
+
+The easiest way to create measure from an existing column is right click the column and select new measure.
+
+The maximum number of Microsoft Dataverse enviroments a user with a power apps per user license can create is 1 production and 1 sanbox enviroment.
+
+isavailable function test for the existance of relationship between tables
+
+Simply revisiting any dashboard or report built on an inactive dataset will resume its scheduled refresh.
+
+In PBD we can customize the current theme for branding and formatting that can be reused across reports. also we can import 
+.json theme file externally and import it into PBD to be reused across reports.
+
+Boolean and table expression data types can be used as a filter argument when using the CALCULATE DAX function in PBI
+
+Performance Analyzer alows you to view the DAX queries generated by the visuals.
+
+.1 suffix indicate that the column was duplicated during the expand operation in power bi.
+
+Viewers must be explicitly granted Build permission on a dataset in order to build new content. 
+
+to chane a pinned visual on a dashboard you need to re-pin the new version of the visual dashboard. Simply changing
+in the report won't  update it on the dashboard. 
+
+Add folder option allows creating display folders to visually organize fields in the field pane.
+
+The MaxConnections setting specifies the maximum number of concurrent DirectQuery queries allowed against the data source,
+which helps control the query load.
+
+Composite models allow combining data from both import and Direct query data sources.
+
+RANK.EQ function assigns a rank to each value within partitions.
+RANK() ranks based on entire dataset 
+RANKX() ranks based on table expression.
+
+AppSource gallery provides a variety of custom visualizations that can be imported into PBI.
+Custom visualizations packaged as pbiviz files can be directly imported into PBI.
+
+ISRELATIONSHIP() tests whether a relationship exists between two columns in a data model.
+LOOKUPRELATIONSHIP() checks if a relationship can be used not if it exists.
+
+The Change Type menu in power query provides options to transform an existing column to a different data type.
+
+When publishing a PBI app creator can customize the navigation structure including sections and links.
+User permissions for accessing different parts of the app can also be configured.
+
+The first step in testing RLS roles in navigating to the Row-Level security page found in the dataset security settings.
+
+Sensitivity labels can be applied to datasets, reports, dashboards, and dataflows to indicate the presence of sensitive info like personally identifiable 
+information(PII). This labels are visible multiple places with minimal additional configuration.
+
+Enable for all queries option allows query metrics to be collected for all queries to help with performance tuning.F
+
+Comments feature allows users to collaborate by adding personal comments or starting conversations about a dashboard or report.
+Comments can be viewed by other users.
+
+In standard mode the gateway allows using generic credentials that are shared among gateway users to connect to data sources.
+
+A trend line shows the overall pattern in a scatter plot without affecting accuracy.
+
+Power Query can handle error using try ... otherwise.. syntax.
+
+Setting a column's date category enables visualizations using thta column to apply appropriate visual optimizations based on the category. For example, columns
+set as Date/Time can enable a Line chart to plot data chronologically.
+
+Calculated Columns allow you to create custom calculations using DAX formulas.
+
+The server name in the .pbix file must match the data source name configured on the gateway in order for its available for refresh scheduling.
+Invalid credentials in the dataset will prevent successful refresh but not gateway selection.
+Single sign-on (SSO) is an authentication tool that enables users to securely access multiple
+applications and services using one set of credentials. If SSO is incorrect it will prevent credentials configuration but not gateway selection.
+
+Disabling loading keeps the queries avilable without loading them to the model, which is the best approach for queries that don't need to be loaded.
+
+The Subject and Body columns are not need for the network analysis report. Removing them during import resolves the privacy issues and minimizes model
+size. 
+
+Assume Referential Integrity can optimize DirectQuery performance by enabling certain query optimizations if data integrity between 
+related tables are guaranteed.
+
+The dataset permissions allow controlling access to export data. The Read permission allows exporting summarized data used fro visualizations.
+The Build permission allows exporting the underlying data.
+
+The Data Loading settings control how the data is imported into the model, not how it can be exported. 
+
+Data source permissions control access to the original sources, not exports of data from PBI.  
+
+Report Settings control visual properties of the report. 
+ 
+ALLEXCEPT function removes all the filters except those are specified.
+
+ISBLANK function checks whether a value is blank, and returns TRUE or FALSE. BLANK() returns a blank space. 
+
+Creating DAX measures allows reusable calculations to be defined once and used consistently across visualizations.
+
+Variables in DAX hold interim calculation results for reuse and readability in a measure.
+Variables create local, not global, values and are only accessible within the measure where defined.
+
+Clicking the request access button a user can request access to an appliccation that has been shared with them.
+
+Pinning the entire report page as a live tile is an easy way to add multiple visualization at once while retaining
+interactivity on the dasboard. Changes made to the report visualization will be reflected in the live tiles.
+
+To enable live queries from the PBI service to an on-premises SSAS data source, we need to install an on-premises
+data gateway. This opens a secure tunnel for live queries.
+
+COUNTROWS returns the total number of rows in a table or column, similar to COUNTA in EXCEL.
+COUNTX counts the number of values in a column excluding blanks.
+COUNT counts the rows that contain a number and ignores blanks.
+
+The two user roles available for managing on-premises data gateways in PBI are adminstrator and user.
+
+Performance Analyzer, Selection pane, Bookmarks and Sync Slicers are in the report view under the view ribbon.
+
+The Subject and body columns are not needed for the network analysis report. Removing them during import resolves the privacy issue 
+and minimizes the model size.
+
+Subscription can only be edited or deleted by the PBI user who created that subscription only.
+
+Power Query uses M language which is functional and case-sensitive.
+
+Table.Schema function returns the metadata about the columns in a table, including their data types.
+
+The smart narrative visual helps summarize visuals and reports, provides relevant insights, and can be customized. Use 
+smart narratives to address key takeaways, point out trends, and edit the language and format for the audience.
+
+Using CALACULATE without any filter arguments triggers a transition from row context to filter context.
+
+Creating seperate tables for each role provides the most flexibility to apply security and build reports for specific roles.
+
+Certifying datasets mean they meet the organization's quality standard and can be trusted. Certified datasets appear before promoted 
+datasets in search results.
+
+The table.Profile M function returns profiling statistics, such as minimum, maximum, average and count for all column in a PBI table.
+
+The Replace Values menu option allows you to find and replace values directly within the power query column.
+
+Free users can only view app content and cannot edit content even in a premium capacity.
+
+Setting a custom width and height for the canvas allows you to maximize the screen area used by the report.  
+
+In PBI service users can subscribe to receive email updates with snapshots of report pages, dashboards and paginated report. 
+
+Creating DAX measures allow reusable calculations to be defined once and used consistently across visualizations.
+
+To create a tooltip page and prepare to be used we need to add and configure visuals on the tooltip page. The tooltip page 
+needs to have "Allow use as tooltip" enabled. The targeted page also needs have "Allow use as tooltip" enabled. 
+
+If a scheduled refresh fails, the dataset owners receive a notification email with details. The details are also recorded in 
+refresh log.
+
+A scatter chart helps us to find clusters automatically in the dataset.
+This capability will help us in finding high-performing product categories for Koovs.
+ 
+A Basic Group by can group by just one column. In case you need to add multiple columns
+ to the group, or add multiple columns for aggregation, select 'Advanced.'
+
+
+For time-intelligence calculations, Quick measures will accept either Power BI-provided date hierarchies
+(generated by the auto date/time feature) or primary date columns.The Date column from the Date table is a primary date column. 
+It means it is a field of date  type in a table marked as a date table. If more than two date columns are given like 
+Order Date or Ship Date it will take the primary column.
+
+The criterias for primary date column
+1. The table storage mode is import
+2.The column Data type is date or date /time
+3. The column is not the "many" side of a model relationship.
+
+We can use both KPI visual and radial gauges to track a stock’s performance (current price) against a goal (50 DMA).
+But a radial gauge is appropriate due to the following reasons:
+1. Only a radial gauge can display both low & high values
+2. Further, a KPI visual is more relevant when you have a trend (data across time), which is not required here.
+
+Calculated columns store the calculated values in the model. Whenever you refresh the model, they are evaluated
+again for all the table records. So, calculated columns are evaluated by using row context at data refresh time.
+Measures are evaluated by using filter context at query time.
+
+If you need to optimize the duration required to complete Other tasks, there are only two ways:
+1. Reduce the number of visuals in the report. This doesn’t seem like a probable solution for this question as there
+are just three visuals in the report. Nevertheless, it’s not one of the answer choices either.
+2. Optimize DAX queries for other visuals.
+
+Using variables can make your measures more efficient, reducing the DAX query time. It does not have an impact on the waiting 
+time (Other task).
+
+The information about the percentage of empty values in a column is available with the Column quality tool in Power Query.
+Column statistics chart is one of the outputs of the Column profile tool. The other is the Value distribution chart 
+
+Granting users/groups access to individual reports will give read-only access.Include in app option lets you choose which
+dashboard/reports to be included in your published app. Granting report access to marketing users through the app will give 
+them read-only access.
+
+Build permissions enables you to use the underlying dataset for a report (that is part of the app) to build new reports/dashboards.
+They do not let you edit the reports shared as part of the app.
+
+The HASONEFILTER function: provides a single return for a direct filter. the HASONEVALUE function: provides a single return for a direct
+and / or cross filter.
+
+ALL() function ignores all the filters in DAX formula. KEEPFILTERS also intersects rather than override existing filters in the filter context. 
+
+In conditional formatting for font/background color, we have three options for Format style
+1. Gradient (colors all the cells in a column with varying shades/gradient of a color)
+2. Rules (colors only the specific cells that meet the criteria)
+3. Field value (formats a column based on the values in the field)
+
+When you sync a slicer from one report page to a slicer on another page, Power BI places that slicer visual on the report page to which it syncs.
+And the slicer remains hidden. 
+
+To ensure the PBI can connect to an on-premises Microsoft SQL Server database the steps are:
+1. Configure an on-premises data gateway 2. Add a data source 3. Add the dataset owner to the data source 4. Configure an scheduled refresh
+
+To reduce the model size while maintaining to analyze product sales by month and quarter 
+1. Create relation between sales and date tables 2. Create a Date table and select mark as date table.
+
+In Power BI, the ampersand (&) operator is used for concatenating text strings. This is useful when you 
+need to combine text from different columns or add additional text to values within a column.
+
+CROSSJOIN produces a result set which is the number of rows in the first table multiplied by the number of 
+rows in the second table if no WHERE clause is used along with CROSS JOIN. This kind of result is called as Cartesian Product.
+
+EXCEPT('Table(2)', 'Table(1)') it will return all the values from table 2 that are not in Table 1.
+
+ROLLUP function is used to groupby results. ROLLUP can only be used within a SUMMARIZE expression
+SUMMARIZE(ResellerSales_USD  
+      , ROLLUP( DateTime[CalendarYear], ProductCategory[ProductCategoryName])  
+      , "Sales Amount (USD)", SUM(ResellerSales_USD[SalesAmount_USD])  
+      , "Discount Amount (USD)", SUM(ResellerSales_USD[DiscountAmount])
+Here the results for Sales Amount (USD) and Discount Amount (USD) are groupbed
+based on DateTime[CalendarYear] and  ProductCategory[ProductCategoryName]
+
+In the following example, the model contains two unrelated product tables. If a user applies 
+a filter to DimProduct1[ProductCategory] selecting Bikes, Seats, Tires, the same filter, Bikes, Seats, 
+Tires is applied to DimProduct2[ProductCategory].
+CALCULATE(
+SUM(Sales[Amount]), 
+TREATAS(VALUES(DimProduct1[ProductCategory]), DimProduct2[ProductCategory])
+)
+
+Bins in groupby are used for grouping continuous numerical data into intervals or ranges, useful for creating histograms or analyzing data distributions.
+Lists in groupby represent distinct categorical data, useful for filtering, categorizing, and creating slicers based on specific categories.
+
+In most web browsers, the F5 key performs the same function as the refresh button in the toolbar or menu
+
+Secondary values are used by line and clustered column charts. Allows you to compare two different metrics that might have different units or scales.
+
+The shared folder on a local network will require a gateway as it is not available to the internet. SharePoint Online, OneDrive, and OneDrive for
+Business all can be refreshed as cloud data sources without a gateway.
+
+The Import storage mode is fully supported with the Q&A and Quick Insights Power BI services. The Import storage, unlike DirectQuery, does not minimize
+local disk space usage and does not eliminate the need for a data refresh. Both the DirectQuery and Import storage modes support per table configuration.
+
+Dividing the SQL statement into separate data sources would minimize the amount of processing on the SQL Server side. This would minimize or even eliminate
+the timeout issues.
+
+Adding a Table.Buffer applied step will only cache the entire query in memory during refresh. 
+
+The min and max values in the Column profile of a text column designate the entries which appear,
+respectively, first and last in alphabetical order.
+
+A calculated table only duplicates data. Any model configurations such as column visibility or hierarchies must be recreated if needed.
+
+When creating a quick measure in Power BI Desktop, you apply calculations to fields. You do not explicitly create a DAX query, but you 
+choose calculations and fields, which result in automatic generation of a DAX query. Conditional columns are separate from quick measures.
+Unlike quick measures, they create a value for each row in a table and are stored in the .pbix file. Power Query M functions are not directly
+accessible from the Quick Measure interface.
+
+The Report view provides the ability to create measures. To create a measure, use the context sensitive menu of the Fields list or the Calculations
+section of the ribbon. The Data view provides access to data within a dataset and includes the option to create a measure in the Calculations section
+of the ribbon. Page view and Power Query Editor do not include the option to create a measure.
+
+Numeric range parameters create a table and measure, both generated with DAX queries.
+
+DAX Studio, once connected to the data model, can be used to clear the data engine cache. The Clear Cache function can be invoked from DAX Studio, once
+ you connect it to the data model. The Refresh Metadata function can be invoked from DAX Studio to update the metadata of the currently selected model.
+Adding a blank page to the .pbix file and selecting it is the first step in clearing the visual cache, not the data engine cache.
+
+The Reduce number of queries sent by Query reduction setting disables the default behavior that automatically applies cross highlighting and filtering of 
+visuals within the same report. The Slicers Query reduction settings allow you to instantly apply slicer changes and add an Apply button to each slicer.
+ The Filters Query reduction settings allow you to instantly apply basic filter changes. The Persistent filters of Report settings allow you to prevent
+ users from saving filters in the Power BI service.
+
+The #duration function of the M language allows you to specify the datetime values that will be entered into individual rows of a date table. The #date function
+creates a date value based on the date parameters you specify. The List.Combine() combines multiple lists into one. List.Durations returns a list of count duration
+values, rather than dates.
+
+The PATH function returns a string with identifiers of all the parents of the current identifier, which is used for flattening. The PATHITEM function returns the item
+at the specified position of a string, which is also used for flattening. The EXCEPT function returns rows from one table which do not appear in another table, which
+would require another table. The CROSSJOIN function returns a Cartesian product of all rows from all tables that the function references. The RELATED function returns
+a related value from another table, which would require another table.
+
+By default, notifications are available in the notification center. You also have the option of sending notifications via email. A dashboard, Microsoft Teams channel,
+and a report are not available as the locations of alerts.
+
+The Q&A feature lets you create a visual by typing in a question about your data. This new visual can then be pinned to the dashboard, without adding it to a report.
+Inside the file menu and the tiles menu there are no “visual” options.
+See Related Content displays related content like reports, datasets, etc. You can’t create a new visual from here.
+
+Admin users who have permissions to certify a dataset are defined in the Dataset Certification tenant admin setting.
+
+To implement an incremental refresh of the dataset, you first need to define an incremental refresh policy, which, in turn, requires defining filter parameters.
+An incremental refresh policy does not require upgrading to a Premium SKU.
+Publishing the dataset to the Power BI service is required for the incremental refresh policy to take effect, so it's the last step of setting up an incremental refresh.
+
+In a Premium per user workspace the limit is 48 refreshes per day for a dataset.
+
+An on-premises gateway is designed to allow multiple users to access multiple data sources. An on-premises data gateway only allows one user to access multiple data sources.
+A virtual network data gateway is designed to allow multiple users to access multiple online data sources.
+
+A combo visualization is a chart that combines a column chart and a line chart and can have one or two Y axes. A funnel visualization is a chart that has sequential connected
+stages, where items flow sequentially from one stage to the next.
+
+Enabling the script visuals option in the Visualization pane of Power BI Desktop is required before creating custom Python visuals in Power BI Desktop. Installing Python is
+not required. But for R we need to install R first.
+
+The current page capture allows the bookmark to navigate back to the page of capture. The data capture updates filters and drillthrough which should not occur for this bookmark.
+The display capture updates visual visibility on the report page.
+
+To configure a button for conditional page navigation, you need to create a DAX measure that outputs the correct destination page name. Then configure the button to use page navigation
+and use the newly created DAX measure to specify the navigation sedestination. To change the button text to match the page name, conditional formatting must be used to set the text to equal
+the newly created DAX measure. No bookmarks are necessary. It is not necessary to set the destination to a specific page sinceconditional formatting is used to specify the destination.
+
+Date/time and numeric data types support bins-based grouping. Binary, Boolean, and text data types do not support bins-based grouping.
+
+
+
+
+
+
+
