@@ -8,7 +8,7 @@
 - Interpersonal communicator with matchless communication skills and the ability to write reports concisely, and speak effectively.
 
 
-
+<p style="text-align: center;">This text is centered.</p>
 
 # [Link to Page 2](page2.md)     
 
