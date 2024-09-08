@@ -12,4 +12,4 @@
 
 # [Link to Page 2](page2.md)     
 
-! [Gone](/images/Capture 1.PNG)
+
