@@ -13,4 +13,4 @@
 # [Link to Page 2](page2.md)     
 
 
-![Images](https://github.com/ryansajid/Portfolio/blob/main/Capture.jpeg)
+![Images](assets/Capture.jpeg)
