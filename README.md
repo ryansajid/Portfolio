@@ -1,4 +1,3 @@
-
 ## Business Analyst with 2 years of Experience
 <h4>Technical Skills: Python, R, SQL Power BI, MySQL, Azure Cloud Computing </h4>
 
@@ -13,3 +12,4 @@
 
 
 # [Link to Page 2](page2.md)      [Link to Page 2](page3.md)
+
