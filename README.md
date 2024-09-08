@@ -28,7 +28,7 @@
 
 
 
-<p align="center">This text is centered.</p>
+<h3 align="center">This text is centered.</h3>
 
 
 
