@@ -1,6 +1,7 @@
 <p align="right"><b>LinkedIn: https://www.linkedin.com/in/mdsajid12/  </b></p>
 <p align="right"><b>Email: ryan.sajid.7@gmail.com</b></p>
 <p align="right"><b>Phone: +1(403)-921-5845</b></p>
+
 ## Business Analyst with 2 years of Experience
 **Technical Skills: Python, R, SQL, Power BI, MySQL, Azure Cloud Computing**
 
