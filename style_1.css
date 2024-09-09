@@ -32,5 +32,11 @@ body{
   font-size: 28px;
   margin-bottom: 8px;
 }
-  
+
+.card-content p{
+  color:#666;
+  font-size: 15px;
+  line-height: 1.3;
+}  
+
   
