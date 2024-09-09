@@ -28,11 +28,11 @@ body{
 .card-content{
   padding:16px;
 }
-.card-content{
+.card-content h3{
   font-size:28px;
   margin-bottom: 8px;
 }
-.card-content{
+.card-content p{
   color:#666;
   font_size: 15px;
   line-height: 1.3;
