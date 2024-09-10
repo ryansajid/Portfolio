@@ -24,7 +24,7 @@
 - Conducted in-depth root cause analyses focused on customer conversion challenges, producing actionable reports that drove strategic improvements and resulted in a significant **32%** increase in conversion rates.
 -  Leveraged advanced data analytics techniques to dissect sales data, generating targeted marketing strategy recommendations that directly contributed to a **10%** boost in overall sales revenue within three months.
 
-## [Certification](Cerification.html)
+## [Certifications](Cerifications.html)
 ## [Projects](Projects.html)
 
 
