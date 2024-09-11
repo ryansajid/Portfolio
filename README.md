@@ -23,7 +23,7 @@
 - Fostered cross-functional collaboration with marketing and product teams to design and implement a centralized reporting infrastructure in Power BI, streamlining data accessibility and reducing report generation time by **40%**.
 - Conducted in-depth root cause analyses focused on customer conversion challenges, producing actionable reports that drove strategic improvements and resulted in a significant **32%** increase in conversion rates.
 -  Leveraged advanced data analytics techniques to dissect sales data, generating targeted marketing strategy recommendations that directly contributed to a **10%** boost in overall sales revenue within three months.
-
+<h3 align="center">Click the links below to know about my Certifications and Data Related Projects.</h3>
 ## [Certifications](Cerifications.html)
 ## [Projects](Projects.html)
 
@@ -32,7 +32,7 @@
 
 
 
-<h3 align="center">This text is centered.</h3>
+
 
 
 
