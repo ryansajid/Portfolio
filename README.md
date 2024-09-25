@@ -39,8 +39,7 @@
 				<button><li><a href="#">Home</a></li></button>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact</a></li>
-				<button><a href="#">SignIn</a></button>
-				<button><a href="#">SignUp</a></button>
+				
 			</ul>
 		</div>
 	</nav>
