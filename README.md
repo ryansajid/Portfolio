@@ -11,7 +11,7 @@
 			background: crimson; font-family: calibri; padding-right: 15px;padding-left: 15px;
 		}
 		.navdiv{
-			display: flex; align-items: center; justify-content: flex-start;
+			display: flex; align-items: center; justify-content: space-around;
 		}
 		.logo a{
 			font-size: 25px; font-weight: 600; color: white;
