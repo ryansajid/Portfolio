@@ -26,7 +26,7 @@
 			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px 20px; width: 100px;
 		}
 		button a{
-			color: white; font-weight: bold; font-size: 12px; text-align: center;
+			color: white; font-weight: bold; font-size: 12px; 
 		}
 	</style>
 </head>
