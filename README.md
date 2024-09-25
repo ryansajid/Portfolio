@@ -36,9 +36,9 @@
 		<div class="navdiv">
 			<div class="logo"><a href="#">Portfolio</a> </div>
 			<ul>
-				<button><li><a href="#">Home</a></li></button>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
+				<button><li><a href="Projects.html">Projects</a></li></button>
+				<button><li><a href="Cerifications.html">Certifications</a></li></button>
+				<button><li><a href="#">Contact</a></li></button>
 				
 			</ul>
 		</div>
