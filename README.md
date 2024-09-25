@@ -20,7 +20,7 @@
 			list-style: none; display: inline-block;
 		}
 		li a{
-			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+			color: white; font-size: 18px; font-weight: bold; margin-right: 25px; margin-top: 15px;
 		}
 		
 	</style>
