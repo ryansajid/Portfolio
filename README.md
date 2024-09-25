@@ -48,7 +48,7 @@
 	</nav>
 </body>
 </html>
-<p style="line-height: 1.5;">This paragraph has increased line spacing.</p>
+<p style="line-height: 1.5;"></p>
 ## Business Analyst with 2 years of Experience
 **Technical Skills: Python, R, SQL, Power BI, MySQL, Azure Cloud Computing**
 
