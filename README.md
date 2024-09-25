@@ -23,7 +23,7 @@
 			color: white; font-size: 12px; font-weight: bold; margin-right: 25px;
 		}
 		button{
-			background-color: black; margin-left: 10px; border-radius: 10px; padding: 5px 10px; width: 70px;
+			background-color: black; margin-left: 10px; border-radius: 10px; padding: 15px 25px; width: 120px;
 		}
 		button a{
 			color: white; font-weight: bold; font-size: 12px;
