@@ -13,9 +13,7 @@
 		.navdiv{
 			display: flex; align-items: center; justify-content: space-between;
 		}
-		.logo a{
-			font-size: 25px; font-weight: 600; color: white;
-		}
+		
 		li{
 			list-style: none; display: inline-block;
 		}
