@@ -21,7 +21,7 @@
 			list-style: none; display: inline-block;
 		}
 		li a{
-			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+			color: white; font-size: 10px; font-weight: bold; margin-right: 25px;
 		}
 		button{
 			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
