@@ -1,4 +1,3 @@
-
 <html>
 <head>
 	<meta charset="utf-8">
@@ -15,19 +14,19 @@
 			display: flex; align-items: center; justify-content: space-between;
 		}
 		.logo a{
-			font-size: 35px; font-weight: 600; color: white;
+			font-size: 25px; font-weight: 600; color: white;
 		}
 		li{
 			list-style: none; display: inline-block;
 		}
 		li a{
-			color: white; font-size: 10px; font-weight: bold; margin-right: 25px;
+			color: white; font-size: 12px; font-weight: bold; margin-right: 15px;
 		}
 		button{
-			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+			background-color: black; margin-left: 10px; border-radius: 10px; padding: 5px 10px; width: 70px;
 		}
 		button a{
-			color: white; font-weight: bold; font-size: 15px;
+			color: white; font-weight: bold; font-size: 12px;
 		}
 	</style>
 </head>
