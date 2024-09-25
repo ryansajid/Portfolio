@@ -30,10 +30,9 @@
 		<div class="navdiv">
 			<div class="logo"><a href="#">Portfolio</a> </div>
 			<ul>
-				<button><li><a href="Projects.html">Projects</a></li></button>
-				<button class="left-aligned-button"><li><a href="Cerifications.html">Certifications</a></li> 
-                                </button>
-				<button><li><a href="#">Contact</a></li></button>
+				<li><a href="Projects.html">Projects</a></li>
+				<li><a href="Cerifications.html">Certifications</a></li> 
+				<li><a href="#">Contact</a></li>
 				
 			</ul>
 		</div>
