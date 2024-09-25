@@ -20,7 +20,7 @@
 			list-style: none; display: inline-block;
 		}
 		li a{
-			color: white; font-size: 12px; font-weight: bold; margin-right: 15px;
+			color: white; font-size: 12px; font-weight: bold; margin-right: 25px;
 		}
 		button{
 			background-color: black; margin-left: 10px; border-radius: 10px; padding: 5px 10px; width: 70px;
