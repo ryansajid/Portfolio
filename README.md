@@ -26,7 +26,6 @@
 <body>
 	<nav class="navbar">
 		<div class="navdiv">
-			<div class="logo"><a href="#">Portfolio</a> </div>
 			<ul>
 				<li><a href="Projects.html">Projects</a></li>
 				<li><a href="Cerifications.html">Certifications</a></li> 
