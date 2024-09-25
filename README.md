@@ -34,9 +34,9 @@
 <body>
 	<nav class="navbar">
 		<div class="navdiv">
-			<div class="logo"><a href="#">CodingNinja</a> </div>
+			<div class="logo"><a href="#">Portfolio</a> </div>
 			<ul>
-				<li><a href="#">Home</a></li>
+				<button><li><a href="#">Home</a></li></button>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact</a></li>
 				<button><a href="#">SignIn</a></button>
