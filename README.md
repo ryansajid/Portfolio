@@ -34,7 +34,8 @@
 			</ul>
 		</div>
         </nav>
-       
+       - • Leveraged advanced data analytics techniques to dissect sales data, generating targeted marketing strategy 
+       recommendations that directly contributed to a **10%** boost in overall sales revenue within three months.    
 </body>
 </html>
 <p style="line-height: 1.5;"></p>
