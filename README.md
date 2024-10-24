@@ -50,7 +50,7 @@
                insights.
            Interpersonal communicator with matchless communication skills and the ability to write reports concisely, 
                and speak effectively.
-
+</p>
 
 ## Education 
 - <b>Master of Data Science and Analytics</b>     |     University of Calgary(_September 2021 - September 2023_).
