@@ -34,10 +34,11 @@
 			</ul>
 		</div>
         </nav>
+	<p style="line-height: 1.5;"></p>
        <h2>Business Analyst with 2 years of Experience</h2>	
 </body>
 </html>
-<p style="line-height: 1.5;"></p>
+
 
 
 ## Business Analyst with 2 years of Experience
