@@ -1,13 +1,51 @@
-
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: crimson; font-family: calibri; padding-right: 15px; padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 18px; font-weight: bold; margin-right: 25px; margin-top: 15px;
+		}
+		
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="navdiv">
+			<ul>
+				<li><a href="Projects.html">Projects</a></li>
+				<li><a href="Cerifications.html">Certifications</a></li> 
+				<li><a href="#">Contact</a></li>
+				
+			</ul>
+		</div>
+	</nav>
+</body>
+</html>
+<p style="line-height: 1.5;"></p>
 
 ## Business Analyst with 2 years of Experience
 **Technical Skills: Python, R, SQL, Power BI, MySQL, Azure Cloud Computing**
 
 ## Skills Highlights Include
-- Skilled at using data-driven approaches to solve problems and make informed decisions.
-- Quick at learning new skills with the ability to envision solutions, take initiative while working in a team or self-directed setting.
-- A proactive self-starter who is driven to identify opportunities for process optimization and data-based insights.
-- Interpersonal communicator with matchless communication skills and the ability to write reports concisely, and speak effectively.
+1. Skilled at using data-driven approaches to solve problems and make informed decisions.
+2. Quick at learning new skills with the ability to envision solutions, take initiative while working in a team or self-directed setting.
+3. A proactive self-starter who is driven to identify opportunities for process optimization and data-based insights.
+4. Interpersonal communicator with matchless communication skills and the ability to write reports concisely, and speak effectively.
   
 ## Education 
 - <b>Master of Data Science and Analytics</b>     |     University of Calgary(_September 2021 - September 2023_).
