@@ -43,7 +43,7 @@
 
 <h3>Skills Highlights Include</h3>
 
-- •   Skilled at using data-driven approaches to solve problems and make informed decisions.
+- •_Skilled at using data-driven approaches to solve problems and make informed decisions.
 <p>           Quick at learning new skills with the ability to envision solutions, take initiative while working in a team 
                or self-directed setting.</p>
 <p>           A proactive self-starter who is driven to identify opportunities for process optimization and data-based 
