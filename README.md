@@ -36,7 +36,7 @@
         </nav>
        <p style="line-height: 1.5;"></p>
        <h2>Business Analyst with 2 years of Experience</h2>
-       <p><strong>Technical Skills:</strong> Python, R, SQL, Power BI, MySQL, Azure Cloud Computing</p>
+       <p><strong>Technical Skills: Python, R, SQL, Power BI, MySQL, Azure Cloud Computing</strong></p>
 
        <h3>Skills Highlights Include</h3>
        <ol>
@@ -47,7 +47,7 @@
                insights.</li>
            <li>Interpersonal communicator with matchless communication skills and the ability to write reports concisely, 
                and speak effectively.</li>
-    </ol>
+      </ol>
 </body>
 </html>
 
