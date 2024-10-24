@@ -42,14 +42,15 @@
 <p><strong>Technical Skills: Python, R, SQL, Power BI, MySQL, Azure Cloud Computing</strong></p>
 
 <h3>Skills Highlights Include</h3>
-
-- •   Skilled at using data-driven approaches to solve problems and make informed decisions.
+<ul>
+<li>Skilled at using data-driven approaches to solve problems and make informed decisions.</li>
 <p>           Quick at learning new skills with the ability to envision solutions, take initiative while working in a team 
                or self-directed setting.</p>
 <p>           A proactive self-starter who is driven to identify opportunities for process optimization and data-based 
                insights.</p>
 <p>          Interpersonal communicator with matchless communication skills and the ability to write reports concisely, 
                and speak effectively.</p>
+</ul>
 
 
 ## Education 
