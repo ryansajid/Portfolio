@@ -34,12 +34,15 @@
 			</ul>
 		</div>
         </nav>
-       <p style="line-height: 1.5;"></p>
-       <h2>Business Analyst with 2 years of Experience</h2>
-       <p><strong>Technical Skills: Python, R, SQL, Power BI, MySQL, Azure Cloud Computing</strong></p>
+       
+</body>
+</html>
+<p style="line-height: 1.5;"></p>
+<h2>Business Analyst with 2 years of Experience</h2>
+<p><strong>Technical Skills: Python, R, SQL, Power BI, MySQL, Azure Cloud Computing</strong></p>
 
-       <h3>Skills Highlights Include</h3>
-       <ul>
+<h3>Skills Highlights Include</h3>
+<ul>
            <li>• Skilled at using data-driven approaches to solve problems and make informed decisions.</li>
            <li>Quick at learning new skills with the ability to envision solutions, take initiative while working in a team 
                or self-directed setting.</li>
@@ -47,16 +50,8 @@
                insights.</li>
            <li>Interpersonal communicator with matchless communication skills and the ability to write reports concisely, 
                and speak effectively.</li>
-      </ul>
-</body>
-</html>
-
-<ul>
-  <li style="font-family: Times New Roman;">Skilled at using data-driven approaches to solve problems and make informed decisions.</li>
-  <li style="font-family: Times New Roman;">Quick at learning new skills with the ability to envision solutions, take initiative while working in a team or self-directed setting.</li>
-  <li style="font-family: Times New Roman;">A proactive self-starter who is driven to identify opportunities for process optimization and data-based insights.</li>
-  <li style="font-family: Times New Roman;">Interpersonal communicator with matchless communication skills and the ability to write reports concisely and speak effectively.</li>
 </ul>
+
 ## Education 
 - <b>Master of Data Science and Analytics</b>     |     University of Calgary(_September 2021 - September 2023_).
 - <b>Bachelor of Computer Science</b>    |    International Islamic University Malaysia(_September 2015 - March 2020_).
