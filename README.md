@@ -57,7 +57,7 @@
 
 ## Experience
 <b>Data Analyst | Flexiroam (_June 2019 - January 2021_)</b>
-<h3>Engineered and implemented over 50 complex Database schemas using MySQL Workbench, enhancing visual representation and comprehension of all databases, resulting in a **25%** improvement in database management efficiency.</h3>
+<h5>Engineered and implemented over 50 complex Database schemas using MySQL Workbench, enhancing visual representation and comprehension of all databases, resulting in a **25%** improvement in database management efficiency.</h5>
 - Developed a robust data and reporting infrastructure utilizing Power BI and SQL, delivering weekly real-time insights on product performance, marketing funnel metrics, and critical business KPIs, which led to an increase in data-driven decision-making.
 - Ingest data from various sources(CRM, BI systems, etc.) into Azure Data Lake Storage for comprehensive monthly reporting on client enrollments, service adoption rates, and employee-client assignments, resulting in an improvement in resource allocation and an increase in client satisfaction scores.
 - Fostered cross-functional collaboration with marketing and product teams to design and implement a centralized reporting infrastructure in Power BI, streamlining data accessibility and reducing report generation time by **40%**.
