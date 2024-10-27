@@ -98,7 +98,7 @@
   <p style="text-align: center;"><b>indicated by the Logistic Regression model considering all other variables with means/medians of train part</b></p>
   <p>Through first logisic regression for Heart failure we found that Platelets and Smoking are not significant predictors of Heart Failure. Platelets was not significant at the 5% level, and Smoking showed a counterintuitive negative effect. Therefore, these variables are removed from the model. It was checked if there is some problem of multicollinearity among the explanatory variables by checking Variance Inflation Factor (VIF), but it is possible to see below that only UREA and CREATININE presented moderate collinearity (2 < VIF < 5), but not severe (VIF > 5) and for this reason it was decided to keep them. </p>
   <p>The probability of heart failure rises with higher urea levels and lowers with increasing ejection fraction (EF), aligning with expected trends, as both deviate from American Heart Association recommended levels for healthy individuals. Since the final logistic model effectively captures heart failure probability, it was applied to the test set to assess prediction performance.</p>
-
+  <p style="line-height: 1.5;">We followed the same procedure for Acute Kidney Injury, with CREATININE emerging as the most significant explanatory variable.</p>
   
 
 
