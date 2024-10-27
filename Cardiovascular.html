@@ -8,7 +8,7 @@
   gap: 5px;;
   
    }
-  .image-container img {
+  .image-container .image-45 {
   width: 45%;
   height: auto;
   
@@ -26,10 +26,7 @@
       height: auto;
    }
     
-  .image-container img_2 {
-  width: 50%;
-  height: auto;
-   }
+
    
    
   </style>
@@ -95,8 +92,8 @@
   </ul>
   <h2 style="line-height: 1.5;">Logistic Regression of Heart failure and Acute Kidney Injury</h2>
   <div class="image-container">
-  <img src="assets/Logistic Regression HR.png" alt="Image_1" >
-  <img src="assets/Logistic Regression HR (2).png" alt="Image_2" >
+  <img src="assets/Logistic Regression HR.png" alt="Image_1" class="image-45" >
+  <img src="assets/Logistic Regression HR (2).png" alt="Image_2" class="image-45" >
   </div>
   <img class="another-class" src="assets/Logistic Regression AKI.png" alt="Logo" >
   <p style="text-align: center;"><b>Probability of response variables Heart Failure and AKI in function of their most significant explanatory variables</b></p>  
@@ -108,16 +105,16 @@
   <h2 style="line-height: 1.5;">Principal Component Analysis(PCA) for Heart Failure, AKI and Outcome</h2>
   <p>Considering only the quantitative variables (scaled), by reducing the dimension to 6 principal companents, this represents 88.79% of the variability when considering all the features. The first principal component (PC-1) is responsible for 27.58% of this total, whereas the last one (PC-6) is responsible for 10.22%.</p>
   <div class="image-container">
-  <img src="assets/Heart Failure.png" alt="Image_1" >
-  <img src="assets/AKI.png" alt="Image_2" >
+  <img src="assets/Heart Failure.png" alt="Image_1" class="image-45" >
+  <img src="assets/AKI.png" alt="Image_2" class="image-45" >
   </div>
   <img class="another-class" src="assets/OUTCOME.png" alt="Logo" >
   <p>In all cases, UREA, CREATININE, and AGE show a positive correlation, while HB is negatively correlated with these factors. Conversely, PLATELETS, TLC, and GLUCOSE are positively correlated with each other, whereas EF is negatively correlated with them. Furthermore, most of the data points pertain to the Discharge class, which accounts for nearly 90% of the dataset.</p>
   <h2 style="line-height: 1.5;"> LINEAR DISCRIMINANT ANALYSIS (LDA) on AKI and Heart Failure</h2>
   <p>For the LDA model, which assumes a normal variance-covariance matrix for each class, it is essential to check whether the quantitative variables used in the final logistic regression model are normally distributed. To do this, we plotted histograms and Q-Q plots for each quantitative variable and conducted the Kolmogorov-Smirnov and Shapiro-Wilk tests (limited to 5000 points due to constraints).</p>
   <div class="image-container">
-  <img_2 src="assets/Normality HF.png" alt="Image_1" >
-  <img_2 src="assets/Normality AKI.png" alt="Image_2" >
+  <img src="assets/Normality HF.png" alt="Image_1" class="image-45" >
+  <img src="assets/Normality AKI.png" alt="Image_2" class="image-45" >
   </div>
 
 
