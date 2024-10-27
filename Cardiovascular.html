@@ -109,8 +109,11 @@
   <img class="another-class" src="assets/OUTCOME.png" alt="Logo" >
   <p>In all cases, UREA, CREATININE, and AGE show a positive correlation, while HB is negatively correlated with these factors. Conversely, PLATELETS, TLC, and GLUCOSE are positively correlated with each other, whereas EF is negatively correlated with them. Furthermore, most of the data points pertain to the Discharge class, which accounts for nearly 90% of the dataset.</p>
   <h2 style="line-height: 1.5;"> LINEAR DISCRIMINANT ANALYSIS (LDA) on AKI and Heart Failure</h2>
-  
-
+  <p>For the LDA model, which assumes a normal variance-covariance matrix for each class, it is essential to check whether the quantitative variables used in the final logistic regression model are normally distributed. To do this, we plotted histograms and Q-Q plots for each quantitative variable and conducted the Kolmogorov-Smirnov and Shapiro-Wilk tests (limited to 5000 points due to constraints).</p>
+  <div class="image-container">
+  <img src="assets/Normality HF.png" alt="Image_1" >
+  <img src="assets/Normality AKI.png" alt="Image_2" >
+  </div>
 
 
 
