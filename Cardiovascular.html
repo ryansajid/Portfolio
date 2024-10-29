@@ -196,9 +196,9 @@
   </div>
   <img class="another-class_1" src="assets/shapiro.png" alt="Logo" > 
   <p>We conducted a normality test by examining the Q-Q plot of the residuals, which indicated non-normal distribution, particularly at the right tail. This was confirmed by the Shapiro-Wilk test, where a p-value of 2.2e-16 (p < 0.05) led us to reject the null hypothesis of normality. We then assessed the potential impact of outliers using Cook’s distance and found values below 0.5 across the data, indicating minimal influence from outliers. Lastly, stepwise backward and forward selection produced the same outcome as manual selection, leading us to conclude that a linear model may not be ideal for predicting "DURATION.OF.STAY."</p>
-  <img class="single-image" src="assets/shapiro.png" alt="Logo" >
-  <img class="another-class" src="assets/shapiro.png" alt="Logo" >
-
+  <img class="single-image" src="assets/residual 1.png" alt="Logo" >
+  <img class="another-class" src="assets/residual 2.png" alt="Logo" >
+  <p>We tested a Regression Tree to improve the Residual Standard Error by splitting the data into 75% training and 25% test sets, followed by a 10-fold cross-validation. However, results showed that the Linear Model performed better than the Regression Tree, despite explaining only 7% of the variation in “DURATION.OF.STAY.” Due to the low R-squared value, exploring interaction terms or higher-order relationships was unfeasible. Therefore, predicting “DURATION.OF.STAY” may be better suited to other machine learning algorithms more compatible with this dataset.</p>
 </body>
 </html>   
 
