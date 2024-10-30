@@ -217,7 +217,17 @@
         <li><strong>True Positives for Heart Failure:</strong> QDA (threshold=0.5) and Gaussian Naive Bayes showed the highest true positive rates for heart failure cases, despite lower overall test accuracy (67.8% and 72.3%, respectively).</li>
         <li><strong>SVC with Principal Components:</strong> An SVC model using six Principal Components achieved 74.4% test accuracy, close to the SVC model with all features (76% test accuracy).</li>
     </ul>
-  
+  <h2>Top Models for AKI</h2>
+    <ul>
+        <li><strong>Training Performance:</strong> Random Forest (n_estimators=350) and Bagging Classifier (n_estimators=50) achieved 100% accuracy on the training set.</li>
+        <li><strong>Test Performance:</strong> Random Forest (n_estimators=350), Gradient Boosting Classifier (n_estimators=30), Classification Tree, GridSearchCV SVC, Bagging Classifier, and Logistic Regression all achieved high test accuracy (98.9–99.01%).</li>
+        <li><strong>Best Model Considering Run Time:</strong> Logistic Regression emerged as the best choice when accounting for model runtime efficiency.</li>
+    </ul>
+
+    <h2>Overall Summary</h2>
+    <p>
+        Random Forest, Gradient Boosting, and Logistic Regression models consistently perform well across both heart failure and AKI datasets. Although some models (e.g., QDA and Gaussian Naive Bayes for heart failure) have lower overall test accuracy, they contribute to correctly identifying a higher number of true positives, which is crucial for detecting critical cases. Logistic Regression stands out for its balance of high accuracy and efficient runtime, making it a practical option in both cases.
+    </p>
 
 </body>
 </html>   
