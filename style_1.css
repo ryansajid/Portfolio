@@ -11,7 +11,7 @@ body{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .card{
   width:325px;
