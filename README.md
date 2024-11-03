@@ -29,7 +29,7 @@
 			<ul>
 				<li><a href="Projects.html">Projects</a></li>
 				<li><a href="Cerifications.html">Certifications</a></li> 
-				<li><a href="#">Contact</a></li>
+				<li><a href="Contact.html">Contact</a></li>
 				
 			</ul>
 		</div>
