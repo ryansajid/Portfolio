@@ -1,7 +1,4 @@
 
-  
-
-
 .contact
 {
   position: relative;
@@ -12,4 +9,15 @@
   flex-direction: column;
   background: url(assets/downtown-calgary.png);
   background-size:cover;
+}
+.contact .content
+{
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2
+{
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
 }
