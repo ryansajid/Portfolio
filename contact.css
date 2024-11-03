@@ -72,6 +72,9 @@
   font-size: 24px;
   margin-bottom: 5px;
 }
+.container .contactInfo .box .text p {
+  margin-top: 0; /* Remove any extra space above details */
+}
 
 
 
