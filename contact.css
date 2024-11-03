@@ -21,6 +21,12 @@
   font-weight: 500;
   color: #fff;
 }
+.contact .content p
+{
+  font-weight: 300;
+  color: #fff;
+}
+
 .container
 {
   width: 100%;
@@ -39,7 +45,7 @@
 .container .contactInfo .box
 {
   position: relative;
-  padding: 20 px 0;
+  padding: 20px 0;
   display: flex;
 }
 .container .contactInfo .box .icon
@@ -58,7 +64,7 @@
 {
   dispaly: flex;
   margin-left: 20px;
-  font-size: 16 px;
+  font-size: 16px;
   color: #fff;
   flex-direction: column;
   font-weight: 300;
