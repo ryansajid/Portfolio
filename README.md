@@ -43,13 +43,10 @@
 
 <h3>Skills Highlights Include</h3>
 
-+ **•** Skilled at using data-driven approaches to solve problems and make informed decisions.
-- **•** Quick at learning new skills with the ability to envision solutions, take initiative while working in a team 
-or self-directed setting.
-- **•** A proactive self-starter who is driven to identify opportunities for process optimization and data-based 
-               insights.
-- **•** Interpersonal communicator with matchless communication skills and the ability to write reports concisely, 
-               and speak effectively.
++ **•** Skilled in applying data-driven problem-solving methodologies to address complex challenges and guide strategic decision-making, achieving a 25% increase in database management efficiency. 
+- **•** Demonstrating a proactive approach to quickly learning new analytical skills, I transitioned seamlessly from Azure to GCP and enhanced my conceptual problem-solving abilities by mastering SAS.
+- **•** I have demonstrated my storytelling ability with data by creating reports on product performance and customer interactions. The reports were so interactive that they drastically changed the decision-making dynamics. 
+- **•** An interpersonal communicator with exceptional communication skills, able to engage with clients to effectively convey the company's marketing strategy, contributing to a 10% increase in overall sales revenue.   
 
 ## Education 
 - <b>Master of Data Science and Analytics</b>     |     University of Calgary(_September 2021 - September 2023_).
