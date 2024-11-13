@@ -3,26 +3,101 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <style>
-    /* Set link color to white */
+    /* Global Styles */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f3f3;
+    }
+
+    /* Link Styling */
     a, a:visited {
       color: white;
-      text-decoration: none; /* Optional: remove underline */
+      text-decoration: none;
     }
     a:hover {
-      color: lightgray; /* Optional: add hover effect */
+      color: lightgray;
+    }
+
+    /* Section and Container Styling */
+    .contact {
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    .content h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Contact Info Boxes */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    .contactInfo .box {
+      background-color: #444;
+      width: 100%;
+      max-width: 300px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      color: white;
+    }
+
+    /* Icon and Text Styling */
+    .icon {
+      font-size: 2em;
+      color: #f9a826;
+      margin-bottom: 10px;
+    }
+    .text h3 {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+    .text p, .text a {
+      font-size: 1em;
+      color: white;
+    }
+
+    /* Responsive Font Size */
+    body {
+      font-size: 16px;
+    }
+
+    /* Media Query for Small Screens */
+    @media (max-width: 768px) {
+      body {
+        font-size: 15px;
+      }
+      .contactInfo .box {
+        width: 90%;
+      }
+    }
+
+    /* Media Query for Very Small Screens */
+    @media (max-width: 480px) {
+      body {
+        font-size: 14px;
+      }
+      .contactInfo .box {
+        width: 100%;
+      }
     }
   </style>
-  <a href="javascript:history.back()" class="back-button">Back</a>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="contact.css">
-  
 </head>
-<body style="font-family: sans-serif;">
+<body>
   <section class="contact">
     <div class="content">
       <h2>Contact Info</h2>
-    
     </div>
     <div class="container">
       <div class="contactInfo">
@@ -59,3 +134,5 @@
   </section>
 </body>
 </html>
+
+
