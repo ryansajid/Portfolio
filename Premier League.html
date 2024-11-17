@@ -13,47 +13,34 @@
 
         h1 {
             text-align: center;
-            font-size: 1.8em;
-            margin: 20px;
+            font-size: 28px; /* Fixed font size */
+            margin: 20px 0;
         }
 
         p {
-            font-size: 18px; /* Base font size */
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 15px;
+            font-size: 18px; /* Fixed font size */
+            width: 800px; /* Fixed width for all screens */
+            margin: 0 auto; /* Center the text */
+            padding: 10px 15px; /* Fixed padding */
         }
 
         .media-element {
             display: block;
             margin: 20px auto;
-            max-width: 800px;
-            height: auto; /* Ensures aspect ratio is maintained */
-        }
-
-        /* Media query for larger screens */
-        @media (min-width: 768px) {
-            p {
-                font-size: 20px;
-            }
-        }
-
-        @media (min-width: 1200px) {
-            p {
-                font-size: 24px;
-            }
+            width: 600px; /* Fixed width */
+            height: auto; /* Maintain aspect ratio */
         }
 
         .back-button {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 10px 20px; /* Fixed padding */
             background-color: #007bff;
             color: white;
             text-decoration: none;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-        } 
+        }
     </style>
 </head>
 <body>
@@ -69,3 +56,4 @@
     </video>
 </body>
 </html>
+
