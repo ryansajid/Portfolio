@@ -54,7 +54,7 @@
         <source src="assets/compressed.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-     <video class="media-element" muted loop>
+     <video id="highlight-video" class="media-element" muted loop>
         <source src="assets/1116(2).mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -76,6 +76,13 @@
 
             videos.forEach(video => {
                 observer.observe(video);
+
+                // If this is the target video, set the playback rate
+                if (video.id === "highlight-video") {
+                    video.playbackRate = 2.0; // Set to 2x speed
+                } else {
+                    video.playbackRate = 1.0; // Keep default speed for other videos
+                }
             });
         });
     </script>
