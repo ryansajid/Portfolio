@@ -71,7 +71,21 @@
   section {
             margin-bottom: 40px;
         }
-  
+  html {
+            scroll-behavior: smooth;
+        }
+
+  back-to-top {
+            display: block;
+            margin-top: 20px;
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+   .back-to-top:hover {
+            text-decoration: underline;
+        } 
     
   </style>
   <a href="javascript:history.back()" class="back-button">Back</a>
@@ -90,7 +104,7 @@
   <li>Analyzing the outcome of the patient for the duration of hospital admission.</li>
   </ul>
   <p>We have selected two datasets from Kaggle and described them in the next section.</p>
-  <nav>
+  <nav id = "top">
         <a href="#datasets-utilized">Go to Datasets Utilized</a>
         <a href="#contingency-table">Go to Contingency Table</a>
   </nav>
@@ -113,6 +127,7 @@
   <p>The primary variables analyzed in this project were HEART.FAILURE, AKI(Acute Kidney Injury), OUTCOME, and DURATION.OF.STAY.</p>
   <img class="single-image" src="assets/3.jpg" alt="Logo" >
   <img class="single-image" src="assets/4.jpg" alt="Logo" >
+  <a href="#top" class="back-to-top">Back to Top</a>
   </section>
 
   
