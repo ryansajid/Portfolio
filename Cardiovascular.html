@@ -125,7 +125,9 @@
         <a href="#CT-HF-AKI">Classification trees of Heart failure and Acute Kidney Injury</a>
         <a href="#Sum-AKI-HF">Summary for Quantitative Response Variables (Heart Failure and AKI)</a>
         <a href="#RDS">Quantitative Response Variable (DURATION OF STAY) </a>
-   
+        <a href="#CM-HF-AKI">Confusion Matrix for Heart failure and Acute Kidney Injury</a>
+        <a href="#ml"> Summary of ML MODELS for predicting Heart failure and Acute Kidney Injury and Overall Summary</a>
+       
   </nav>
 
   
@@ -303,12 +305,15 @@
   <p>We tested a Regression Tree to improve the Residual Standard Error by splitting the data into 75% training and 25% test sets, followed by a 10-fold cross-validation. However, results showed that the Linear Model performed better than the Regression Tree, despite explaining only 7% of the variation in “DURATION.OF.STAY.” Due to the low R-squared value, exploring interaction terms or higher-order relationships was unfeasible. Therefore, predicting “DURATION.OF.STAY” may be better suited to other machine learning algorithms more compatible with this dataset.</p>
   <a href="#top" class="back-to-top">Back to Top</a>
   </section>
+  <section id="CM-HF-AKI">  
   <h2 style="line-height: 1.5;">CONFUSION MATRIX FOR HEART FAILURE(LEFT) AND ACUTE KIDNEY INJURY(RIGHT) </h2>
   <div class="image-container">
   <img src="assets/TP HR.png" alt="Image_1" class="image-45" >
   <img src="assets/TP AKI.png" alt="Image_2" class="image-45" >
   </div>
-  <p style="text-align: center;"><b>Summary of True Negatives and Positives obatined in Test Part for each ML model</b></p>  
+  <p style="text-align: center;"><b>Summary of True Negatives and Positives obatined in Test Part for each ML model</b></p>
+  </section>
+  <section id="ml">     
   <h2 style="line-height: 1.5;">SUMMARY OF ML MODELS FOR PREDICTING HEART FAILURE(LEFT) AND ACUTE KIDNEY INJURY(RIGHT)</h2>
   <div class="image-container">
   <img src="assets/Accuracy HF.png" alt="Image_1" class="image-45" >
@@ -332,7 +337,7 @@
     <p>
         Random Forest, Gradient Boosting, and Logistic Regression models consistently perform well across both heart failure and AKI datasets. Although some models (e.g., QDA and Gaussian Naive Bayes for heart failure) have lower overall test accuracy, they contribute to correctly identifying a higher number of true positives, which is crucial for detecting critical cases. Logistic Regression stands out for its balance of high accuracy and efficient runtime, making it a practical option in both cases.
     </p>
-
+    </section>
 </body>
 </html>   
 
