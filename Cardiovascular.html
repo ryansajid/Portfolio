@@ -122,7 +122,7 @@
         <a href="#PCA-HF-AKI-Outcome">Principal Component Analysis(PCA) for Heart Failure, AKI and Outcome</a>
         <a href="#LDA-AKI-HF">LINEAR Discriminant Analysis (LDA) on AKI and Heart Failure</a>
         <a href="#QDA-AKI-HF">QUADRATC Discriminant Analysis (QDA) on AKI and Heart Failure</a>
-    
+        <a href="#CT-HF-AKI">Classification trees of Heart failure and Acute Kidney Injury</a>
   </nav>
 
   
@@ -228,6 +228,7 @@
   <p>he partition plot reveals that for heart failure, AGE and EF have the lowest error rates, while for AKI, Creatinine and DM demonstrate the lowest error rates.</p>
   <a href="#top" class="back-to-top">Back to Top</a>
   </section>
+  <section id="CT-HF-AKI">
   <h2 style="line-height: 1.5;">Classification Tree</h2>
   <h3 style="line-height: 1.5;">Classification tree for heart failure</h3>
   <div class="image-container">
@@ -247,6 +248,8 @@
   <p>The sensitivity analysis of tree depth shows that the optimal test accuracy is achieved with a depth of 2. While accuracy continues to improve for the training data at depths 4 and 7, the test accuracy remains similar to that at depth 2. As depth increases, the discrepancy between training and test accuracy widens due to improved training performance, indicating overfitting. Therefore, a depth of 2 was selected for the classification tree to predict AKI.</p>
   <p>In the final tree (Depth = 2), the most relevant explanatory variable for predicting AKI, Creatinine, is positioned at the top of the tree. When creatinine levels exceed 1.49, the model predicts AKI, while values below 1.49 generally predict no AKI. Additionally, when creatinine levels are above 1.505, the Gini index reaches 0, indicating node purity.</p>
   <p>The scatter plot of the classification tree regions for AKI shows that patients with AKI (indicated as “1”) and without AKI (indicated as “0”) are clearly divided into two regions. Both groups converge near the dotted lines where creatinine is around 1.5, and this is where most incorrect predictions occur.</p>
+  <a href="#top" class="back-to-top">Back to Top</a>
+  </section>
   <h2 style="line-height: 1.5;">SUMMARY FOR QUANTITATIVE RESPONSE VARIABLES (Heart Failure and AKI)</h2>
   <p>The summary results created to predict HEART.FAILURE and ACUTE KIDNEY INJURY are not only using stratified sampling (75% train part, 25% test part), but also with 10-fold Stratified Cross-validation, which the results in term of misclassification rate are presented in the  visuals below. </p>
   <div class="image-container">
