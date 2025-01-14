@@ -116,9 +116,11 @@
   <p>We have selected two datasets from Kaggle and described them in the next section.</p>
   <h3>Project Navigator</h3>
   <nav id = "top">
-        <a href="#datasets-utilized">Go to Datasets Utilized</a>
-        <a href="#contingency-table">Go to Contingency Table for Independence Checking</a>
-        <a href="#logistic-regression">Go to Logistic Regression Heart failure and Acute Kidney Injury</a>
+        <a href="#datasets-utilized">Datasets Utilized</a>
+        <a href="#contingency-table">Contingency Table for Independence Checking</a>
+        <a href="#logistic-regression">Logistic Regression Heart failure and Acute Kidney Injury</a>
+        <a href="#PCA-HF-AKI-Outcome">Principal Component Analysis(PCA) for Heart Failure, AKI and Outcome</a>
+     
   </nav>
 
   
@@ -190,6 +192,9 @@
   <p>The final logistic regression model was also examined to see if certain quantitative variables were indicative of heart failure probability as expected. This was done by holding all other explanatory variables at their means (for quantitative variables) or medians (for qualitative variables) and analyzing results separately by gender.</p>
   <p>The probability of heart failure rises with higher urea levels and lowers with increasing ejection fraction (EF), aligning with expected trends, as both deviate from American Heart Association recommended levels for healthy individuals. Since the final logistic model effectively captures heart failure probability, it was applied to the test set to assess prediction performance.</p>
   <p style="line-height: 1.5;">We followed the same procedure for Acute Kidney Injury, with CREATININE emerging as the most significant explanatory variable.</p>
+  <a href="#top" class="back-to-top">Back to Top</a>
+  </section>
+  <section id="PCA-HF-AKI-Outcome">
   <h2 style="line-height: 1.5;">Principal Component Analysis(PCA) for Heart Failure, AKI and Outcome</h2>
   <p>Considering only the quantitative variables (scaled), by reducing the dimension to 6 principal companents, this represents 88.79% of the variability when considering all the features. The first principal component (PC-1) is responsible for 27.58% of this total, whereas the last one (PC-6) is responsible for 10.22%.</p>
   <div class="image-container">
