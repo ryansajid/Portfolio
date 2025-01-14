@@ -120,7 +120,7 @@
         <a href="#contingency-table">Contingency Table for Independence Checking</a>
         <a href="#logistic-regression">Logistic Regression Heart failure and Acute Kidney Injury</a>
         <a href="#PCA-HF-AKI-Outcome">Principal Component Analysis(PCA) for Heart Failure, AKI and Outcome</a>
-     
+        <a href="#LDA-AKI-HF">LINEAR Discriminant Analysis (LDA) on AKI and Heart Failure</a>
   </nav>
 
   
@@ -205,6 +205,7 @@
   <p>In all cases, UREA, CREATININE, and AGE show a positive correlation, while HB is negatively correlated with these factors. Conversely, PLATELETS, TLC, and GLUCOSE are positively correlated with each other, whereas EF is negatively correlated with them. Furthermore, most of the data points pertain to the Discharge class, which accounts for nearly 90% of the dataset.</p>
   <a href="#top" class="back-to-top">Back to Top</a>
   </section>
+  <section id="LDA-AKI-HF">
   <h2 style="line-height: 1.5;"> LINEAR DISCRIMINANT ANALYSIS (LDA) on AKI and Heart Failure</h2>
   <p>For the LDA model, which assumes a normal variance-covariance matrix for each class, it is essential to check whether the quantitative variables used in the final logistic regression model are normally distributed. To do this, we plotted histograms and Q-Q plots for each quantitative variable and conducted the Kolmogorov-Smirnov and Shapiro-Wilk tests (limited to 5000 points due to constraints).</p>
   <div class="image-container">
@@ -212,6 +213,8 @@
   <img src="assets/Normality AKI.png" alt="Image_2" class="image-45" >
   </div>
   <p>For both Heart Failure and AKI none of the quantitative variables were normally distributed, so only the qualitative variables from the final logistic regression model were used in the LDA modeling. </p>
+  <a href="#top" class="back-to-top">Back to Top</a>
+  </section>
   <h2 style="line-height: 1.5;"> QUADRATC DISCRIMINANT ANALYSIS (QDA) on AKI and Heart Failure</h2>
   <p>The QDA statistical learning method, which does not strictly require variable normality, was applied using all explanatory variables from the logistic regression model. For QDA, a partition plot was generated for variable pairs to visualize the distribution of training units along with the model’s decision boundary.</p>
   <p>For AKI, a partition plot was also created to identify the lowest error rate among associated variables. The STEMI category variable was included alongside other significant variables, aligning with the LDA model’s consideration of STEMI, to observe its error rate in conjunction with the others.</p>
