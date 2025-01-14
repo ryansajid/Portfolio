@@ -124,7 +124,8 @@
         <a href="#QDA-AKI-HF">QUADRATC Discriminant Analysis (QDA) on AKI and Heart Failure</a>
         <a href="#CT-HF-AKI">Classification trees of Heart failure and Acute Kidney Injury</a>
         <a href="#Sum-AKI-HF">Summary for Quantitative Response Variables (Heart Failure and AKI)</a>
-    
+        <a href="#RDS">Quantitative Response Variable (DURATION OF STAY) </a>
+   
   </nav>
 
   
@@ -273,6 +274,7 @@
   <p>The Logistic Regression model without stratified sampling achieved the lowest misclassification rate (1.03%) for predicting AKI. However, similar performance was observed with logistic regression using 10-fold cross-validation and with the classification tree, both with and without cross-validation.</p>
   <a href="#top" class="back-to-top">Back to Top</a>
   </section>
+  <section id="RDS">  
   <h2 style="line-height: 1.5;">QUANTITAIVE RESPONSE VARIABLE (DURATION OF STAY)</h2>
   <p>Our analysis also aimed to determine if the “DURATION.OF.STAY” for hospital patients could be predicted based on their medical lab results (primarily quantitative variables) and gender (the only qualitative variable).</p>
   <div class="image-container">
@@ -299,6 +301,8 @@
   <img class="single-image" src="assets/residual 1.png" alt="Logo" >
   <img class="another-class" src="assets/residual 2.png" alt="Logo" >
   <p>We tested a Regression Tree to improve the Residual Standard Error by splitting the data into 75% training and 25% test sets, followed by a 10-fold cross-validation. However, results showed that the Linear Model performed better than the Regression Tree, despite explaining only 7% of the variation in “DURATION.OF.STAY.” Due to the low R-squared value, exploring interaction terms or higher-order relationships was unfeasible. Therefore, predicting “DURATION.OF.STAY” may be better suited to other machine learning algorithms more compatible with this dataset.</p>
+  <a href="#top" class="back-to-top">Back to Top</a>
+  </section>
   <h2 style="line-height: 1.5;">CONFUSION MATRIX FOR HEART FAILURE(LEFT) AND ACUTE KIDNEY INJURY(RIGHT) </h2>
   <div class="image-container">
   <img src="assets/TP HR.png" alt="Image_1" class="image-45" >
