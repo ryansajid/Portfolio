@@ -114,13 +114,15 @@
   <li>Analyzing the outcome of the patient for the duration of hospital admission.</li>
   </ul>
   <p>We have selected two datasets from Kaggle and described them in the next section.</p>
+  <h3>Project Navigator</h3>
   <nav id = "top">
         <a href="#datasets-utilized">Go to Datasets Utilized</a>
-        <a href="#contingency-table">Go to Contingency Table</a>
+        <a href="#contingency-table">Go to Contingency Table for Independence Checking</a>
+        <a href="#logistic-regression">Go to Logistic Regression Heart failure and Acute Kidney Injury</a>
   </nav>
 
   
-  <section id="datasets-utilized">
+  <section id="Datasets-Utilized">
   <h1>Datasets Utilized</h1>
   <p>We have utilized the “Hospital Admissions Data” dataset (File size: 2.6 MB, Rows: 15757 K, Columns: 56) available in the Kaggle portal <span style="color: blue;">(https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data/discussion/302894?resource=download&select=HDHI+Admission+data.csv)</span>in CSV format.</p>
   <p>The Kaggle portal provides this dataset free of charge and can be used for research/project purposes. Details of their conditions are available in <span style="color: blue;">https://doi.org/10.3390/diagnostics12020241</span>. This dataset is being provided under creative commons License (Attribution-Non-Commercial-Share Alike 4.0 International (CC BY-NC-SA 4.0)) <span style="color: blue;">https://creativecommons.org/licenses/by-nc-sa/4.0/.</span></p>
@@ -175,7 +177,7 @@
   <a href="#top" class="back-to-top">Back to Top</a>
   </section>
 
-  
+  <section id="logistic-regression">
   <h2 style="line-height: 1.5;">Logistic Regression of Heart failure and Acute Kidney Injury</h2>
   <div class="image-container">
   <img src="assets/Logistic Regression HR.png" alt="Image_1" class="image-45" >
@@ -196,6 +198,8 @@
   </div>
   <img class="another-class" src="assets/OUTCOME.png" alt="Logo" >
   <p>In all cases, UREA, CREATININE, and AGE show a positive correlation, while HB is negatively correlated with these factors. Conversely, PLATELETS, TLC, and GLUCOSE are positively correlated with each other, whereas EF is negatively correlated with them. Furthermore, most of the data points pertain to the Discharge class, which accounts for nearly 90% of the dataset.</p>
+  <a href="#top" class="back-to-top">Back to Top</a>
+  </section>
   <h2 style="line-height: 1.5;"> LINEAR DISCRIMINANT ANALYSIS (LDA) on AKI and Heart Failure</h2>
   <p>For the LDA model, which assumes a normal variance-covariance matrix for each class, it is essential to check whether the quantitative variables used in the final logistic regression model are normally distributed. To do this, we plotted histograms and Q-Q plots for each quantitative variable and conducted the Kolmogorov-Smirnov and Shapiro-Wilk tests (limited to 5000 points due to constraints).</p>
   <div class="image-container">
