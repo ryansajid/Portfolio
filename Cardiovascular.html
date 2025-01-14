@@ -121,6 +121,8 @@
         <a href="#logistic-regression">Logistic Regression Heart failure and Acute Kidney Injury</a>
         <a href="#PCA-HF-AKI-Outcome">Principal Component Analysis(PCA) for Heart Failure, AKI and Outcome</a>
         <a href="#LDA-AKI-HF">LINEAR Discriminant Analysis (LDA) on AKI and Heart Failure</a>
+        <a href="#QDA-AKI-HF">QUADRATC Discriminant Analysis (QDA) on AKI and Heart Failure</a>
+    
   </nav>
 
   
@@ -215,6 +217,7 @@
   <p>For both Heart Failure and AKI none of the quantitative variables were normally distributed, so only the qualitative variables from the final logistic regression model were used in the LDA modeling. </p>
   <a href="#top" class="back-to-top">Back to Top</a>
   </section>
+  <section id="QDA-AKI-HF">
   <h2 style="line-height: 1.5;"> QUADRATC DISCRIMINANT ANALYSIS (QDA) on AKI and Heart Failure</h2>
   <p>The QDA statistical learning method, which does not strictly require variable normality, was applied using all explanatory variables from the logistic regression model. For QDA, a partition plot was generated for variable pairs to visualize the distribution of training units along with the model’s decision boundary.</p>
   <p>For AKI, a partition plot was also created to identify the lowest error rate among associated variables. The STEMI category variable was included alongside other significant variables, aligning with the LDA model’s consideration of STEMI, to observe its error rate in conjunction with the others.</p>
@@ -223,6 +226,8 @@
   <img src="assets/partition plot AKI.png" alt="Image_2" class="image-45" >
   </div>
   <p>he partition plot reveals that for heart failure, AGE and EF have the lowest error rates, while for AKI, Creatinine and DM demonstrate the lowest error rates.</p>
+  <a href="#top" class="back-to-top">Back to Top</a>
+  </section>
   <h2 style="line-height: 1.5;">Classification Tree</h2>
   <h3 style="line-height: 1.5;">Classification tree for heart failure</h3>
   <div class="image-container">
