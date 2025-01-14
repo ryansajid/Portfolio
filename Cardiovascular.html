@@ -123,6 +123,8 @@
         <a href="#LDA-AKI-HF">LINEAR Discriminant Analysis (LDA) on AKI and Heart Failure</a>
         <a href="#QDA-AKI-HF">QUADRATC Discriminant Analysis (QDA) on AKI and Heart Failure</a>
         <a href="#CT-HF-AKI">Classification trees of Heart failure and Acute Kidney Injury</a>
+        <a href="#Sum-AKI-HF">Summary for Quantitative Response Variables (Heart Failure and AKI)</a>
+    
   </nav>
 
   
@@ -250,6 +252,7 @@
   <p>The scatter plot of the classification tree regions for AKI shows that patients with AKI (indicated as “1”) and without AKI (indicated as “0”) are clearly divided into two regions. Both groups converge near the dotted lines where creatinine is around 1.5, and this is where most incorrect predictions occur.</p>
   <a href="#top" class="back-to-top">Back to Top</a>
   </section>
+  <section id="Sum-AKI-HF">      
   <h2 style="line-height: 1.5;">SUMMARY FOR QUANTITATIVE RESPONSE VARIABLES (Heart Failure and AKI)</h2>
   <p>The summary results created to predict HEART.FAILURE and ACUTE KIDNEY INJURY are not only using stratified sampling (75% train part, 25% test part), but also with 10-fold Stratified Cross-validation, which the results in term of misclassification rate are presented in the  visuals below. </p>
   <div class="image-container">
@@ -268,6 +271,8 @@
     <li>Qualitative: STEMI and DM</li>
   </ul>
   <p>The Logistic Regression model without stratified sampling achieved the lowest misclassification rate (1.03%) for predicting AKI. However, similar performance was observed with logistic regression using 10-fold cross-validation and with the classification tree, both with and without cross-validation.</p>
+  <a href="#top" class="back-to-top">Back to Top</a>
+  </section>
   <h2 style="line-height: 1.5;">QUANTITAIVE RESPONSE VARIABLE (DURATION OF STAY)</h2>
   <p>Our analysis also aimed to determine if the “DURATION.OF.STAY” for hospital patients could be predicted based on their medical lab results (primarily quantitative variables) and gender (the only qualitative variable).</p>
   <div class="image-container">
