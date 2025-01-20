@@ -52,7 +52,7 @@
                     <ul>
                         <li><strong>Base URL:</strong> Location of GitHub files</li>
                         <li><strong>Authentication Type:</strong> Anonymous</li>
-                        <li><strong>Parameterization:</strong> Dynamic content with <code>csv_relative_url</code></li>
+                        <li><strong>Parameterization:</strong> Dynamic content with <code>@dataset.csv_relative_url</code></li>
                     </ul>
                 </li>
             </ul>
@@ -82,7 +82,9 @@
                 <li><strong>Sink:</strong> <code>@item.filename</code></li>
             </ul>
         </li>
-        <li>Test <strong>Copy Data Activity</strong> outside the loop before integrating into <code>ForEach</code>.</li>
+        <li>One important note is its always good to create a <strong>Copy Data Activity</strong> 
+One important note is its always good to create a copy data activity and perform the configuarations
+most importantly the parameterizations before working with <code>ForEach activity</code>.</li>
     </ul>
     <h2>4. Lookup Activity for Automation</h2>
     <ul>
