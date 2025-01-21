@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Premier League</title>
-   
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.css" rel="stylesheet" />
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,6 +39,19 @@
             margin: 20px;
             text-align: justify; /* Justify text for better presentation */
         }
+        /* Custom styles for the code block */
+    .highlight-section pre {
+      background-color: #f5f5f5; /* Lighter background */
+      color: #2d2d2d; /* Dark text */
+      padding: 20px;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      overflow-x: auto;
+      max-width: 100%;
+    }
+    .highlight-section code {
+      font-size: 1.1em;
+    }
        
     </style>
   
@@ -139,14 +152,25 @@
     <img class="media-element" src="assets/bronze.png" alt="EPL Logo">
     <p style="text-align: center;"><b>CSV files migrated to ADLS Gen 2 after running the data pipeline in Date Factory(Bronze Directory)</b></p>
     <h1>Data Transformation in Databricks</h1>
-    <pre>
-        <code class="python">
+   <div class="highlight-section">
+    <pre><code class="language-python">
+# Python code example
+def greet(name):
+    return f"Hello, {name}!"
 
-    print(f"Hello, {name}!")
-
-
-        </code>
-    </pre>
+name = "World"
+print(greet(name))
+    </code></pre>
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  
+  <script>
+    // Apply syntax highlighting to elements inside the .highlight-section
+    document.querySelectorAll('.highlight-section pre code').forEach(block => {
+      Prism.highlightElement(block);
+    });
+  </script>
 
 </body>
 </html>
