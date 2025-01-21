@@ -3,7 +3,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Premier League</title>
-    
+    <!-- Prism.js CSS for syntax highlighting -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.css" rel="stylesheet" />
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,7 +40,19 @@
             margin: 20px;
             text-align: justify; /* Justify text for better presentation */
         }
-       
+    /* Custom styles for code block */
+    pre {
+      background-color: #f5f5f5; /* Lighter background */
+      color: #2d2d2d; /* Dark text for contrast */
+      padding: 20px;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      overflow-x: auto;
+      max-width: 100%;
+    }
+    code {
+      font-size: 1.1em;
+    }
        
     </style>
   
@@ -139,12 +152,32 @@
     </ul>
     <img class="media-element" src="assets/bronze.png" alt="EPL Logo">
     <p style="text-align: center;"><b>CSV files migrated to ADLS Gen 2 after running the data pipeline in Date Factory(Bronze Directory)</b></p>
-    <h1>Data Transformation in Databricks</h1>
+    <h1>Data Transformation in Databricks and Storing the data in Silver Directory </h1>
     <img class="media-element" src="assets/Databricks Connector.png" alt="EPL Logo">
     <img class="media-element" src="assets/Dataframes.png" alt="EPL Logo">
     <img class="media-element" src="assets/Mongodb.png" alt="EPL Logo">
     <img class="media-element" src="assets/Joins.png" alt="EPL Logo">
     <img class="media-element" src="assets/Dropping duplicates.png" alt="EPL Logo">
+     <h1>Data Integration through Azure Synapse Analytics and Storing the data in Gold Directory </h1>
+    <pre><code class="language-python">
+   # Python code example
+    def greet(name):
+     return f"Hello, {name}!"
+
+     name = "World"
+    print(greet(name))
+    </code></pre>
+  
+    <!-- Include Prism.js for syntax highlighting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <!-- Include the Python language definition -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  
+    <script>
+    // Initialize Prism to apply syntax highlighting
+    Prism.highlightAll();
+    </script>
+    
 </body>
 </html>
 
