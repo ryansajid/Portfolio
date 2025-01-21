@@ -166,11 +166,13 @@ create view gold.final
 as
 SELECT 
     *
-FROM OPENROWSET(
-    BULK 'https://olistecommstorageaccnt.dfs.core.windows.net/olistdata/silver',
-    FORMAT = 'PARQUET') 
-    AS result1
+FROM 
+    OPENROWSET(
+          BULK 'https://olistecommstorageaccnt.dfs.core.windows.net/olistdata/silver',
+          FORMAT = 'PARQUET') 
+          AS result1
 where order_status = 'delivered'
+       
 select * from  gold.final
   </code></pre>
   
