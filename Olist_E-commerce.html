@@ -188,7 +188,7 @@
      <p>This code connects to a MongoDB server using authentication credentials, accesses the database <code>OlistNoSQLDatabase_imaginecat</code>, retrieves the <code>product_categories</code> collection and loads the collection data into a Pandas DataFrame for analysis.</p>   
     <img src="assets/Joins.png" alt="EPL Logo" 
      style="display: block; width: 90%; height: auto; border: 1px solid black; border-radius: 8px; margin: 0 auto;">
-        
+     <p>This code performs a series of left joins between multiple DataFrames in PySpark to combine data from various sources. It starts by joining the <code>orders_df</code> DataFrame (which contains order details) with the <code>customers_df</code>  DataFrame on the <code>customer_id</code> column, ensuring that all records from orders_df are kept, and matching customer data is added where available. Next, it joins this result with the payments_df DataFrame on the <code>order_id</code> column to include payment details. After that, it joins the result with the items_df DataFrame on the order_id column, followed by joining it with the products_df DataFrame on the product_id column to include product details. Finally, the code joins the resulting DataFrame with the <code>sellers_df</code> DataFrame on the <code>seller_id</code> column to add seller information. The result of all these operations is stored in the <code>final_df</code> DataFrame, which consolidates order, customer, payment, item, product, and seller details into one comprehensive dataset for further analysis or processing.</p>   
 
     <img src="assets/Dropping duplicates.png" alt="EPL Logo" 
     style="display: block; width: 90%; height: auto; border: 1px solid black; border-radius: 8px; margin: 0 auto;">
