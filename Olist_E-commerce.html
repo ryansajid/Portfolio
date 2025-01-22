@@ -191,11 +191,11 @@ CREATE EXTERNAL DATA SOURCE goldlayer WITH (
 );
 
 CREATE EXTERNAL TABLE gold.finaltable  WITH (
-        LOCATION = 'Finalserving',
+        LOCATION = Serving',
         DATA_SOURCE = goldlayer,
         FILE_FORMAT = exfileformat
 ) AS
-SELECT * FROM gold.final2;
+SELECT * FROM gold.final;
   </code></pre>
 
   
