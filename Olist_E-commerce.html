@@ -213,6 +213,7 @@ where order_status = 'delivered'
 select * from  gold.final
        
   </code></pre>
+<p>This code creates a new schema called <code>gold</code>, defines a view named <code>final</code> under that schema, and queries data from a Parquet file stored in Azure Data Lake. The view filters the data to include only rows where <code>order_status</code> is <code>'delivered'</code>. After creating the view, the query retrieves all the data from this view. The view simplifies querying and structuring the data for analysis, and the external data in Parquet format is used directly in the query.</p>
  <pre><code class="language-sql">
 ---CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'V3gaDreamy007';
 ---CREATE DATABASE SCOPED CREDENTIAL Md_Sajid WITH IDENTITY = 'Managed Identity';
