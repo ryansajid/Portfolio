@@ -174,7 +174,30 @@ FROM
 where order_status = 'delivered'
        
 select * from  gold.final
+       
   </code></pre>
+ <pre><code class="language-sql">
+---CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'V3gaDreamy007';
+---CREATE DATABASE SCOPED CREDENTIAL Md_Sajid WITH IDENTITY = 'Managed Identity';
+
+CREATE EXTERNAL FILE FORMAT exfileformat WITH (
+    FORMAT_TYPE = PARQUET,
+    DATA_COMPRESSION = 'org.apache.hadoop.io.compress.SnappyCodec'
+);
+
+CREATE EXTERNAL DATA SOURCE goldlayer WITH (
+    LOCATION = 'https://olistecommstorageaccnt.dfs.core.windows.net/olistdata/gold/',
+    CREDENTIAL = Md_Sajid
+);
+
+CREATE EXTERNAL TABLE gold.finaltable  WITH (
+        LOCATION = 'Finalserving',
+        DATA_SOURCE = goldlayer,
+        FILE_FORMAT = exfileformat
+) AS
+SELECT * FROM gold.final2;
+  </code></pre>
+
   
   <!-- Include Prism.js for syntax highlighting -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
