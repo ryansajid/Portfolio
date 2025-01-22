@@ -94,6 +94,7 @@
     <ul>
     <li>product_category_name VARCHAR(255)(Primary_key)</li>
     <li>product_category_name_english VARCHAR(255)</li>
+    </ul>
     
     <div class="image-container">
     <img src="assets/mongo.png" alt="Image_1" class="image-45" >
@@ -235,7 +236,7 @@ CREATE EXTERNAL TABLE gold.finaltable  WITH (
 ) AS
 SELECT * FROM gold.final;
   </code></pre>
-
+<p>This script facilitates the seamless integration of external data stored in Azure Data Lake into the database for querying and analysis. It ensures security with managed identity credentials, defines an efficient columnar file format (Parquet), and sets up an external table that allows querying data without physically importing it into the database. The overall setup enables scalable and efficient analytics, adhering to the principles of modern data architecture, where raw data is transformed into gold-layer datasets for final consumption</p>.
   
   <!-- Include Prism.js for syntax highlighting -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
@@ -246,7 +247,6 @@ SELECT * FROM gold.final;
     // Initialize Prism to apply syntax highlighting
     Prism.highlightAll();
   </script>
-    
 </body>
 </html>
 
