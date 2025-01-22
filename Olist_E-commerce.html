@@ -192,7 +192,10 @@
 
     <img src="assets/Dropping duplicates.png" alt="EPL Logo" 
     style="display: block; width: 90%; height: auto; border: 1px solid black; border-radius: 8px; margin: 0 auto;">
-        
+    <p>This code is designed to identify and remove duplicate columns from a PySpark DataFrame (<code>final_df</code>) to ensure that only distinct columns are retained. The process begins by extracting the column names from <code>final_df</code>final_df using the <code>columns</code> property, which provides a list of all column names in the DataFrame. These names are stored in the variable <code>final_columns</code>.</p>
+    <p>Next, the code attempts to identify any duplicate columns by checking the number of occurrences of each column name in the list. This is done using a list comprehension, where it counts the occurrences of each column and adds it to the <code>duplicates</code> list if the count is greater than one. However, this method might not work as intended in this case, since counting the occurrences of elements in a list may not accurately reflect the situation in a DataFrame, especially after performing joins with overlapping column names.</p>   
+    <p>Once duplicates are identified, the code proceeds to remove them from the <code>final_df</code> DataFrame. It uses the drop method to eliminate the columns listed in the <code>duplicates</code> list. The <code>*duplicates</code> syntax unpacks the list, passing each column name as an individual argument to the <code>drop</code> function. After this operation, the DataFrame no longer contains the duplicate columns.</p>
+    <p>Finally, the resulting DataFrame is displayed using the <code>display</code> function, which allows users to view the DataFrame after the duplicate columns have been removed. However, there is a potential issue with the approach for identifying duplicates, as it may not reliably detect columns with similar names that should not be removed. A more robust method could involve handling column conflicts explicitly during the DataFrame join process.</p>
     <h1>Data Integration through Azure Synapse Analytics and Storing the data in Gold Directory </h1>
    <pre><code class="language-sql">
 create schema gold      
