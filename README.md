@@ -101,6 +101,10 @@
     .tech-skills {
     font-size: 18px; /* or any size you prefer */
     }
+    
+    li {
+    font-size: 18px; /* You can change to 20px, 22px, etc. */
+    }
 
 
   </style>
