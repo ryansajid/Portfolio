@@ -97,6 +97,11 @@
     .experience-section {
     margin-top: -50px; /* Adjust this value as needed */
     }
+    
+    .tech-skills {
+    font-size: 20px; /* or any size you prefer */
+    }
+
 
   </style>
 </head>
@@ -118,7 +123,7 @@
     
     <section>
       <h1>Business Analyst with 2 Years of Experience</h1>
-      <p><strong>Technical Skills:</strong> Python, R, SQL, Power BI, MySQL, Azure Cloud Computing</p>
+      <p class="tech-skills"><strong>Technical Skills:</strong> Python, R, SQL, Power BI, MySQL, Azure Cloud Computing</p>
     </section>
 
     <section>
