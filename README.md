@@ -92,7 +92,7 @@
       margin-bottom: 10px;
     }
     .education-section {
-    margin-top: -40px; /* Adjust this value as needed */
+    margin-top: -50px; /* Adjust this value as needed */
     }
 
   </style>
