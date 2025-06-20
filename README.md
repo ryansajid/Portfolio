@@ -42,7 +42,7 @@
 
     .navdiv ul li a {
       color: white;
-      font-size: 18px;
+      font-size: 22px;
       font-weight: bold;
     }
 
