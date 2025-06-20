@@ -145,8 +145,8 @@
 
     <section class="education-section">
       <h2>Education</h2>
-      <p><strong>Master of Data Science and Analytics</strong> | University of Calgary (Sep 2021 - Sep 2023)</p>
-      <p><strong>Bachelor of Computer Science</strong> | IIUM Malaysia (Sep 2015 - Mar 2020)</p>
+      <p class="tech-skills"><strong>Master of Data Science and Analytics</strong> | University of Calgary (Sep 2021 - Sep 2023)</p>
+      <p class="tech-skills"><strong>Bachelor of Computer Science</strong> | IIUM Malaysia (Sep 2015 - Mar 2020)</p>
     </section>
 
     <section class="experience-section">
