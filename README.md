@@ -123,7 +123,7 @@
     
     <section>
       <h1>Business Analyst with 2 Years of Experience</h1>
-      <p class="tech-skills"><strong>Technical Skills:</strong> Python, R, SQL, Power BI, MySQL, Azure Cloud Computing</p>
+      <p class="tech-skills"><strong>Technical Skills:</strong> Python, R, SQL, Power BI, MySQL, Azure, AWS</p>
     </section>
 
     <section>
