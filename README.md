@@ -100,8 +100,8 @@
     <div class="navdiv">
       <ul>
         <li><a href="Projects.html">Projects</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="Cerifications.html">Certifications</a></li>
+        <li><a href="Contact.html">Contact</a></li>
       </ul>
     </div>
   </nav>
