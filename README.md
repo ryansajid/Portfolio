@@ -98,7 +98,6 @@
   <!-- Navigation Bar -->
   <nav class="navbar">
     <div class="navdiv">
-      <h2>Md Nazmus Sajid</h2>
       <ul>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#certifications">Certifications</a></li>
