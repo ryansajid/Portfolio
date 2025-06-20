@@ -20,7 +20,7 @@
       background-color: crimson;
       padding: 8px 15px;
       margin: 0;
-      margin-left: -40px;
+      margin-left: -55px;
     }
 
     .navdiv {
