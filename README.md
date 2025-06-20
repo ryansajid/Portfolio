@@ -94,6 +94,9 @@
     .education-section {
     margin-top: -50px; /* Adjust this value as needed */
     }
+    .experience-section {
+    margin-top: -50px; /* Adjust this value as needed */
+    }
 
   </style>
 </head>
@@ -137,7 +140,7 @@
       <p><strong>Bachelor of Computer Science</strong> | IIUM Malaysia (Sep 2015 - Mar 2020)</p>
     </section>
 
-    <section>
+    <section class="experience-section">
       <h2>Experience</h2>
       <h3>Data Analyst | Flexiroam (June 2019 - August 2020)</h3>
       <ul class="experience-list">
