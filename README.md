@@ -18,7 +18,7 @@
     /* Navigation bar */
     .navbar {
       background-color: crimson;
-      padding: 15px 30px;
+      padding: 8px 20px;
     }
 
     .navdiv {
