@@ -126,7 +126,7 @@
   <div class="container">
     
     <section>
-      <h1>Business Analyst with 2 Years of Experience</h1>
+      <h1>Microsoft Certified Power BI Business Analyst with 2 Years of Experience</h1>
       <p class="tech-skills"><strong>Technical Skills:</strong> Python, R, SQL, Power BI, MySQL, Azure, AWS</p>
     </section>
 
