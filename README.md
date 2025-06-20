@@ -19,12 +19,15 @@
     .navbar {
       background-color: crimson;
       padding: 8px 15px;
+      margin: 0;
     }
 
     .navdiv {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-left: 0;
+      padding-left: 0;
     }
 
     .navdiv h2 {
