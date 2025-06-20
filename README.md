@@ -99,7 +99,7 @@
     }
     
     .tech-skills {
-    font-size: 20px; /* or any size you prefer */
+    font-size: 15px; /* or any size you prefer */
     }
 
 
