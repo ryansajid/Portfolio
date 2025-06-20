@@ -49,6 +49,9 @@
       font-size: 22px;
       font-weight: bold;
     }
+    .navdiv ul li a:hover {
+      color: black;
+    }
 
     /* Main content */
     .container {
