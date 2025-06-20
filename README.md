@@ -25,7 +25,7 @@
     .navdiv {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: left;
       margin-left: 0;
       padding-left: 0;
     }
