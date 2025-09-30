@@ -140,7 +140,7 @@
     <section>
       <div class="skills-header">
         <h2>Skills Highlights Include</h2>
-        <a href="assets/Md_Nazmus_ Sajid_Resume.pdf" download class="download-btn">Download Resume</a>
+        <a href="assets/Md Nazmus Sajid Resume (2).pdf" download class="download-btn">Download Resume</a>
       </div>
       <ul class="skills-list">
         <li>Skilled in applying data-driven problem-solving methodologies, achieving a 25% increase in database management efficiency.</li>
